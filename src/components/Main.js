@@ -33,7 +33,8 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <p>Most of my work is covered by NDA. However, I can provide specific work samples on request.</p>
+          <p>Here are a few samples of common solutions your website may need. Additional samples available on request.</p>
+          <a href="https://cc-form-paulgarcia.surge.sh/" target="_blank" rel="noopener noreferrer">Credit Card Form</a>
           {close}
         </article>
 
@@ -42,8 +43,8 @@ class Main extends React.Component {
           <p><a href="mailto:hello@paulgarcia.co" className="icon fa-envelope">hello@paulgarcia.co</a></p>
 
           <ul className="icons">
-            <li><a href="https://www.linkedin.com/in/paulgarcia22" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
-            <li><a href="https://github.com/gp22" target="_blank" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/paulgarcia22" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/gp22" target="_blank" rel="noopener noreferrer" className="icon fa-github"><span className="label">GitHub</span></a></li>
           </ul>
           {close}
         </article>
