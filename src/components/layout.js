@@ -1,56 +1,17 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import React from "react"
+import PropTypes from "prop-types"
 
-import '../assets/scss/main.scss'
+import Header from "./header"
+import "../styles/layout.scss"
 
-const Layout = ({ children, location }) => {
-
-  let content;
-
-  if (location && location.pathname === '/') {
-    content = (
-      <div>
-        {children}
-      </div>
-    )
-  } else {
-    content = (
-      <div id="wrapper" className="page">
-        <div>
-          {children}
-        </div>
-      </div>
-    )
-  }
-
+const Layout = ({ children }) => {
   return (
-    <StaticQuery
-      query={graphql`
-        query SiteTitleQuery {
-          site {
-            siteMetadata {
-              title
-            }
-          }
-        }
-      `}
-      render={data => (
-        <>
-          <Helmet
-            title={data.site.siteMetadata.title}
-            meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
-            ]}
-          >
-            <html lang="en" />
-          </Helmet>
-          {content}
-        </>
-      )}
-    />
+    <>
+      <Header />
+      <div className="grid">
+        <main>{children}</main>
+      </div>
+    </>
   )
 }
 

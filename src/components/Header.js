@@ -1,31 +1,21 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
+import Hero from './hero'
+import Nav from './nav'
 
-const Header = (props) => (
-    <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-        <div className="logo">
-            <span className="icon fa-code"></span>
-        </div>
-        <div className="content">
-            <div className="inner">
-                <h1>Paul Garcia</h1>
-                <p>Freelance Web Developer</p>
-            </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('services')}}>Services</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+const Header = () => (
+  <header>
+    <Nav />
+    <Hero />
+  </header>
 )
 
 Header.propTypes = {
-    onOpenArticle: PropTypes.func,
-    timeout: PropTypes.bool
+  siteTitle: PropTypes.string,
+}
+
+Header.defaultProps = {
+  siteTitle: ``,
 }
 
 export default Header
