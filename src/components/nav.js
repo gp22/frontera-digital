@@ -1,11 +1,11 @@
-import React from 'react'
+import { Link } from "gatsby"
+import React from "react"
 
-const Nav = () => {
-  return (
-    <nav>
-      <p>nav works!!!</p>
-    </nav>
-  )
-}
+const Nav = () => (
+  <nav>
+    <Link to="#about">About</Link>
+    <Link to="#contact">Contact</Link>
+  </nav>
+)
 
-export default Nav;
+export default Nav

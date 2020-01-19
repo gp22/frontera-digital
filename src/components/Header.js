@@ -1,21 +1,14 @@
-import PropTypes from 'prop-types'
-import React from 'react'
-import Hero from './hero'
-import Nav from './nav'
+import React from "react"
+
+import Image from "../components/image"
 
 const Header = () => (
   <header>
-    <Nav />
-    <Hero />
+    <div>
+      <h1></h1>
+    </div>
+    <Image />
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
