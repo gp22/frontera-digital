@@ -1,5 +1,29 @@
 module.exports = {
   theme: {
+    colors: {
+      white: '#fff',
+      green: '#2abd2a',
+      red: '#bd422a',
+      blue: {
+        100: '#e6f0ff',
+        200: '#95bff0',
+        300: '#2a6ebd',
+        400: '#1f5a99',
+      },
+      brown: {
+        100: '#faf4ed',
+        200: '#ccc2b8',
+        300: '#473c2f',
+      },
+      gray: {
+        100: '#7a8999',
+        200: '#3d444d',
+      },
+      white: {
+        100: '#fafcff',
+        200: '#f5f9ff',
+      },
+    },
     fontSize: {
       body: '20px',
       tiny: '0.555rem',
