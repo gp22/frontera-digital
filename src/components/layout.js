@@ -26,12 +26,14 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="xxl:px-56">
-      <Nav />
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+    <>
+      <div className="pt-6 px-4  sm:px-8 xxl:px-56">
+        <Nav />
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <main>{children}</main>
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 
