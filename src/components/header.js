@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 
-import Image from "../components/image"
+import Image from './image'
 
 const Header = () => (
   <header>
