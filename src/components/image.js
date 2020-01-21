@@ -18,7 +18,7 @@ const Image = () => {
     query {
       file(relativePath: { eq: "Paul-Garcia.png" }) {
         childImageSharp {
-          fixed(width: 160) {
+          fixed(width: 120) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -26,7 +26,13 @@ const Image = () => {
     }
   `)
 
-  return <Img fixed={data.file.childImageSharp.fixed} />
+  return (
+    <Img
+      alt="Paul Garcia"
+      className="mx-auto"
+      fixed={data.file.childImageSharp.fixed}
+    />
+  )
 }
 
 export default Image

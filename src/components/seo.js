@@ -29,9 +29,12 @@ function SEO({ description, lang, meta, title }) {
 
   return (
     <Helmet
-      htmlAttributes={{
-        lang,
-      }}
+      htmlAttributes={
+        ({
+          lang,
+        },
+        { class: 'bg-gray-100  xl:text-body' })
+      }
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
@@ -69,7 +72,6 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <html className="bg-gray-100  xl:text-body" />
       <body className="body-wrapper mx-auto shadow-2xl text-gray-200 font-body bg-white" />
     </Helmet>
   )
