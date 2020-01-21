@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="pt-6 px-4  sm:px-8 xxl:px-56">
+      <div className="content-wrapper mx-auto pt-6 px-4  lg:px-12">
         <Nav />
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>

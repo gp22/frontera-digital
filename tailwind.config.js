@@ -1,11 +1,10 @@
 module.exports = {
   theme: {
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      xxl: '1366px',
+      sm: '500px',
+      md: '650px',
+      lg: '800px',
+      xl: '950px',
     },
     colors: {
       white: '#fff',

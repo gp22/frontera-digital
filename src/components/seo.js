@@ -69,8 +69,8 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <html className="bg-gray-100  sm:text-body" />
-      <body className="max-w-xxl mx-auto shadow-2xl text-gray-200 font-body bg-white" />
+      <html className="bg-gray-100  xl:text-body" />
+      <body className="body-wrapper mx-auto shadow-2xl text-gray-200 font-body bg-white" />
     </Helmet>
   )
 }

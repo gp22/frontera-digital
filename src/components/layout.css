@@ -39,3 +39,15 @@
 
 @tailwind components;
 @tailwind utilities;
+
+.body-wrapper {
+  max-width: 1366px;
+}
+
+.content-wrapper {
+  /*
+  Max content width is 950px and the
+  container has padding left and right of 3 rem
+  */
+  max-width: calc(950px + 6rem);
+}
