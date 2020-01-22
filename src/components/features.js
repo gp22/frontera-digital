@@ -1,5 +1,6 @@
 import React from 'react'
 
+import BrushStroke from './brush-stroke'
 import Feature from './feature'
 import ChatBubble from './chat-bubble'
 import Calendar from './calendar'
@@ -7,11 +8,13 @@ import Brush from './brush'
 import Devices from './devices'
 import ComputerScreen from './computer-screen'
 import AtomicBomb from './atomic-bomb'
+import Squiggle from './squiggle'
 
 const Features = () => (
-  <section>
+  <section className="mb-20">
     <h4 className="italic">What you'll get</h4>
-    <div className="sm:flex sm:flex-wrap sm:mx-neg">
+    <BrushStroke className="w-32  brush-stroke" />
+    <div className="mb-12  sm:flex sm:flex-wrap sm:mx-neg">
       <Feature
         icon={<ChatBubble />}
         title="Proactive Communication"
@@ -43,6 +46,7 @@ const Features = () => (
         desc="Make the most of your visitors first few seconds on your site and convince them to stay."
       />
     </div>
+    <Squiggle className="mx-auto" />
   </section>
 )
 

@@ -44,6 +44,10 @@
   max-width: 1366px;
 }
 
+.brush-stroke {
+  margin-left: -.75rem;
+}
+
 .content-wrapper {
   /*
   Max content width is 950px and we need to account for
