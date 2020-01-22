@@ -7,6 +7,7 @@ import Header from '../components/header'
 import Main from '../components/main'
 import Features from '../components/features'
 import Qualify from '../components/qualify'
+import About from '../components/about'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -26,6 +27,7 @@ const IndexPage = () => {
       <Main />
       <Features />
       <Qualify />
+      <About />
     </Layout>
   )
 }
