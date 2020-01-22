@@ -53,7 +53,7 @@
   Max content width is 950px and we need to account for
   the container padding left and right of 1.5 rem
   */
-  max-width: calc(850px + 3rem);
+  max-width: calc(800px + 3rem);
 }
 
 .chevron {
