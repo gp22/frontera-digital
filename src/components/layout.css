@@ -66,3 +66,9 @@
 .gradient {
   background: linear-gradient(#95bff0, #1f5a99 50%)
 }
+
+.list-style {
+  left: -2rem;
+  top: .25rem;
+  height: 1rem;
+}
