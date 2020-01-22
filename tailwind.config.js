@@ -1,10 +1,10 @@
 module.exports = {
   theme: {
     screens: {
-      sm: '500px',
-      md: '650px',
-      lg: '800px',
-      xl: '950px',
+      sm: '400px',
+      md: '525px',
+      lg: '675px',
+      xl: '850px',
     },
     colors: {
       white: '#fff',
@@ -47,7 +47,7 @@ module.exports = {
       display: ['Oswald', 'sans-serif'],
     },
     fontSize: {
-      body: '20px',
+      body: '18px',
       tiny: '0.555rem',
       xs: '0.702rem',
       sm: '0.889rem',

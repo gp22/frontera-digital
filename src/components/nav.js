@@ -1,20 +1,23 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
+import Chevron from './chevron'
+
 const Nav = () => (
-  <nav role="navigation" className="flex justify-between mb-12  md:mb-20">
+  <nav role="navigation" className="flex justify-between mb-12  lg:mb-20">
     <Link className="font-display font-bold text-lg" to="/">
       Paul Garcia
     </Link>
-    <span>
+    <span className="text-sm">
       <Link className="mr-6 text-blue-500 border-b-2" to="#about">
         about
       </Link>
       <Link
-        className="bg-blue-500 px-3 rounded-full text-blue-100"
+        className="bg-blue-500 pr-4 pl-3 relative rounded-full text-blue-100"
         to="#contact"
       >
-        contact
+        <span className="mr-1">contact</span>
+        <Chevron className="absolute chevron" />
       </Link>
     </span>
   </nav>
