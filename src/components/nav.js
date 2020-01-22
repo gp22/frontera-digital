@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 
 const Nav = () => (
-  <nav role="navigation" className="flex justify-between mb-10  lg:mb-32">
+  <nav role="navigation" className="flex justify-between mb-12  md:mb-20">
     <Link className="font-display font-bold text-lg" to="/">
       Paul Garcia
     </Link>
