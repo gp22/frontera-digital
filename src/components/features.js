@@ -11,7 +11,7 @@ import AtomicBomb from './atomic-bomb'
 import Squiggle from './squiggle'
 
 const Features = () => (
-  <section className="mb-20">
+  <section className="mb-32">
     <h4 className="italic">What you'll get</h4>
     <BrushStroke className="w-32  brush-stroke" />
     <div className="mb-12  sm:flex sm:flex-wrap sm:mx-neg">
