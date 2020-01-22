@@ -63,6 +63,11 @@ module.exports = {
     extend: {
       maxWidth: {
         xxl: '1366px',
+        '1/3': '33%',
+        '1/2': '50%',
+      },
+      margin: {
+        neg: '-2rem',
       },
     },
   },

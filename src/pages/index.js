@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Header from '../components/header'
 import Main from '../components/main'
+import Features from '../components/features'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -22,6 +23,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Header siteTitle={data.site.siteMetadata.title} />
       <Main />
+      <Features />
     </Layout>
   )
 }
