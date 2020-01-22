@@ -16,7 +16,7 @@ const Nav = () => (
         className="pr-4 pl-3 relative rounded-full text-blue-100  gradient"
         to="#contact"
       >
-        <span className="mr-1">contact</span>
+        <span className="mr-1 font-bold">contact</span>
         <Chevron className="absolute chevron" />
       </Link>
     </span>
