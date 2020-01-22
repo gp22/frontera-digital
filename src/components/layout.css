@@ -61,3 +61,8 @@
   right: 0.5rem;
   top: 0.32rem;
 }
+
+/* Gradient going from blue-400 to blue-600 */
+.gradient {
+  background: linear-gradient(#95bff0, #1f5a99 50%)
+}

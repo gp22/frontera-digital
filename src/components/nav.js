@@ -13,7 +13,7 @@ const Nav = () => (
         about
       </Link>
       <Link
-        className="bg-blue-500 pr-4 pl-3 relative rounded-full text-blue-100"
+        className="pr-4 pl-3 relative rounded-full text-blue-100  gradient"
         to="#contact"
       >
         <span className="mr-1">contact</span>
