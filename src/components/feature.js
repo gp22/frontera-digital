@@ -8,7 +8,7 @@ const Feature = props => (
     <div className="border-b border-gray-100 mb-4 pb-4">
       <h5 className="font-display text-2xl w-48">{props.title}</h5>
     </div>
-    <p className="text-gray-100 text-sm w-48">{props.desc}</p>
+    <p className="text-gray-100 font-light text-sm w-48">{props.desc}</p>
   </div>
 )
 
