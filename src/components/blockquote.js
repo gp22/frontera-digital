@@ -1,6 +1,6 @@
 import React from 'react'
 
-import QuoteLeft from './quote-left'
+import QuoteLeft from './svg/quote-left'
 
 const Blockquote = props => (
   <blockquote className="bg-blue-100 border-2 border-blue-500 py-5 px-6 mb-4 relative">

@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-import Chevron from './chevron'
+import Chevron from './svg/chevron'
 
 const Nav = () => (
   <nav role="navigation" className="flex justify-between mb-12  lg:mb-20">

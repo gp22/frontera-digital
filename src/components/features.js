@@ -1,14 +1,15 @@
 import React from 'react'
 
-import BrushStroke from './brush-stroke'
 import Feature from './feature'
-import ChatBubble from './chat-bubble'
-import Calendar from './calendar'
-import Brush from './brush'
-import Devices from './devices'
-import ComputerScreen from './computer-screen'
-import AtomicBomb from './atomic-bomb'
-import Squiggle from './squiggle'
+
+import BrushStroke from './svg/brush-stroke'
+import ChatBubble from './svg/chat-bubble'
+import Calendar from './svg/calendar'
+import Brush from './svg/brush'
+import Devices from './svg/devices'
+import ComputerScreen from './svg/computer-screen'
+import AtomicBomb from './svg/atomic-bomb'
+import Squiggle from './svg/squiggle'
 
 const Features = () => (
   <section className="mb-32">

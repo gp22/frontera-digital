@@ -1,7 +1,7 @@
 import React from 'react'
 
-import CheckCircle from './check-circle'
-import BanSolid from './ban-solid'
+import CheckCircle from './svg/check-circle'
+import BanSolid from './svg/ban-solid'
 
 const Qualify = () => (
   <section className="mb-32">
