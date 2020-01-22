@@ -1,0 +1,8 @@
+<svg id="computer-screen-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Frames-24px">
+    <rect id="Rectangle_34" data-name="Rectangle 34" width="24" height="24" fill="none"/>
+  </g>
+  <g id="Outline" transform="translate(0 3)">
+    <path id="Path_14" data-name="Path 14" d="M22,3H2A2,2,0,0,0,0,5V18a2,2,0,0,0,2,2h9v2H7v2H17V22H13V20h9a2,2,0,0,0,2-2V5A2,2,0,0,0,22,3Zm0,2,0,10H2V5ZM2,18V17H22v1Z" transform="translate(0 -3)" fill="#fafcff"/>
+  </g>
+</svg>
