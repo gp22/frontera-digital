@@ -2,6 +2,9 @@ import React from 'react'
 
 import BrushArrow from './svg/brush-arrow'
 import PhoneSolid from './svg/phone-solid'
+import Envelope from './svg/envelope'
+import Github from './svg/github'
+import Linkedin from './svg/linkedin'
 
 const Footer = () => (
   <footer id="footer" className="bg-brown-100">
@@ -11,7 +14,7 @@ const Footer = () => (
         Ready to chat about your next project or just have questions?
       </h4>
       <a
-        className="border-4 border-brown-300 pl-3 pr-8 py-1 rounded-sm inline-block mb-20 uppercase relative"
+        className="border-4 border-brown-300 pl-3 pr-8 py-1 rounded-sm inline-block mb-16 uppercase relative"
         href="https://calendly.com/paulgarciaco/phone-call"
         target="_blank"
         rel="noopener noreferrer"
@@ -21,9 +24,32 @@ const Footer = () => (
         </span>
         <PhoneSolid className="absolute  phone-solid" />
       </a>
-      <p className="text-brown-200 text-xs">
-        © {new Date().getFullYear()} design and development by Paul Garcia
-      </p>
+      <div className="md:flex md:items-baseline">
+        <span className="flex mb-2  md:mb-0">
+          <a className="mr-3" href="mailto:hello@paulgarcia.co">
+            <Envelope />
+          </a>
+          <a
+            className="mr-3"
+            href="https://github.com/gp22"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Github />
+          </a>
+          <a
+            className="md:mr-3"
+            href="https://www.linkedin.com/in/paulgarcia22"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Linkedin />
+          </a>
+        </span>
+        <p className="text-brown-200 text-xs">
+          © {new Date().getFullYear()} design and development by Paul Garcia
+        </p>
+      </div>
     </div>
   </footer>
 )
