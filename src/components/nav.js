@@ -9,16 +9,16 @@ const Nav = () => (
       Paul Garcia
     </Link>
     <span className="text-sm">
-      <Link className="mr-6 text-blue-500 border-b-2" to="#about">
+      <a className="mr-6 text-blue-500 border-b-2" href="#about">
         about
-      </Link>
-      <Link
+      </a>
+      <a
         className="pr-4 pl-3 relative rounded-full text-blue-100  gradient"
-        to="#footer"
+        href="#footer"
       >
         <span className="mr-1 font-bold">contact</span>
         <Chevron className="absolute chevron" />
-      </Link>
+      </a>
     </span>
   </nav>
 )

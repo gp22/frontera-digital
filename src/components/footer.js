@@ -14,6 +14,7 @@ const Footer = () => (
         className="border-4 border-brown-300 pl-3 pr-8 py-1 rounded-sm inline-block mb-20 uppercase relative"
         href="https://calendly.com/paulgarciaco/phone-call"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <span className="text-brown-300 font-bold tracking-wide">
           Schedule a call
