@@ -16,7 +16,7 @@ const Features = () => (
     <h4 className="italic">What you'll get</h4>
     <BrushStroke className="w-32  brush-stroke" />
     <div className="overflow-hidden">
-      <div className="mb-12  sm:flex sm:flex-wrap sm:mx-neg">
+      <div className="mb-12  md:flex md:flex-wrap md:mx-neg">
         <Feature
           icon={<ChatBubble />}
           title="Proactive communication"
