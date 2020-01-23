@@ -12,7 +12,7 @@ import AtomicBomb from './svg/atomic-bomb'
 import Squiggle from './svg/squiggle'
 
 const Features = () => (
-  <section className="mb-32">
+  <section className="mb-24">
     <h4 className="italic">What you'll get</h4>
     <BrushStroke className="w-32  brush-stroke" />
     <div className="mb-12  sm:flex sm:flex-wrap sm:mx-neg">
