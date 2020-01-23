@@ -44,6 +44,12 @@
   max-width: 1366px;
 }
 
+.brush-arrow {
+  right: 1.5rem;
+  top: -3rem;
+  z-index: 0;
+}
+
 .brush-circle {
   right: 0;
   z-index: 0;
@@ -76,6 +82,11 @@
   left: -2rem;
   top: .25rem;
   height: 1rem;
+}
+
+.phone-solid {
+  right: 0.8rem;
+  top: .5rem;
 }
 
 .quote-left {
