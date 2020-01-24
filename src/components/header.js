@@ -5,7 +5,7 @@ import Image from './image'
 const Header = () => (
   <header className="mb-16  lg:mb-32 lg:flex lg:justify-between lg:items-center">
     <div className="max-w-lg">
-      <h1 className="font-bold font-display mb-4 text-2xl  lg:text-5xl xl:text-6xl">
+      <h1 className="font-bold font-display mb-2 text-2xl  lg:leading-snug lg:text-5xl xl:text-6xl">
         I can help you <span>build&nbsp;trust</span> and achieve&nbsp;your{' '}
         <span>business&nbsp;goals</span> through great web&nbsp;experiences
       </h1>

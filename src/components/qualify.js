@@ -4,8 +4,8 @@ import CheckCircle from './svg/check-circle'
 import BanSolid from './svg/ban-solid'
 
 const Qualify = () => (
-  <section className="mb-32">
-    <h4 className="italic mb-6">
+  <section className="mb-24">
+    <h4 className="italic mb-2">
       Wonder if we're a good fit to work together?
     </h4>
     <div className="lg:flex lg:wrap">

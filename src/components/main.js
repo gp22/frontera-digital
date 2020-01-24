@@ -5,7 +5,7 @@ import Blockquote from './blockquote'
 const pClassNames = 'mb-4'
 
 const Main = () => (
-  <section className="max-w-xl mb-32">
+  <section className="max-w-xl mb-24">
     <h3 className="font-bold font-display text-2xl mb-2">
       Most businesses get their website all wrong
     </h3>
