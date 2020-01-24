@@ -14,12 +14,12 @@ const Footer = () => (
         Ready to chat about your next project or just have questions?
       </h4>
       <a
-        className="border-4 border-brown-300 pl-3 pr-8 py-1 rounded-sm inline-block mb-16 uppercase relative hover:opacity-75  transition"
+        className="bg-brown-300 text-brown-100 border-4 border-brown-300 inline-block mb-16 pl-3 pr-8 py-1 relative rounded-sm uppercase  hover:text-brown-300 hover:bg-brown-100  transition cta-button"
         href="https://calendly.com/paulgarciaco/phone-call"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="text-brown-300 font-bold tracking-wide">
+        <span className="font-bold tracking-wide">
           Schedule a call
         </span>
         <PhoneSolid className="absolute  phone-solid" />

@@ -73,6 +73,10 @@
   top: 0.32rem;
 }
 
+.cta-button:hover .phone-solid {
+  fill: #473c2f;
+}
+
 /* Gradient going from blue-400 to blue-600 */
 .gradient {
   background: linear-gradient(#95bff0, #1f5a99 50%)
@@ -85,6 +89,7 @@
 }
 
 .phone-solid {
+  fill: #faf4ed;
   right: 0.8rem;
   top: .5rem;
 }
@@ -95,6 +100,7 @@
   z-index: 0;
 }
 
-.transition {
-  transition: opacity .5s;
+.transition,
+.phone-solid {
+  transition: all .3s ease;
 }
