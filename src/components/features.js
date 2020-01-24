@@ -14,9 +14,9 @@ import Squiggle from './svg/squiggle'
 const Features = () => (
   <section className="mb-24">
     <h4 className="italic">What you'll get</h4>
-    <BrushStroke className="w-32  brush-stroke" />
-    <div className="overflow-hidden">
-      <div className="mb-12  md:flex md:flex-wrap md:mx-neg">
+    <BrushStroke className="mb-4 w-32  md:mb-0  brush-stroke" />
+    <div className="md:overflow-hidden">
+      <ul className="mb-12  md:flex md:flex-wrap md:mx-neg">
         <Feature
           icon={<ChatBubble />}
           title="Proactive communication"
@@ -47,7 +47,7 @@ const Features = () => (
           title="Makes a killer first-impression"
           desc="Make the most of your visitors first few seconds on your site and convince them to stay."
         />
-      </div>
+      </ul>
     </div>
     <Squiggle className="mx-auto" />
   </section>
