@@ -14,7 +14,7 @@ const Footer = () => (
         Ready to chat about your next project or just have questions?
       </h4>
       <a
-        className="border-4 border-brown-300 pl-3 pr-8 py-1 rounded-sm inline-block mb-16 uppercase relative"
+        className="border-4 border-brown-300 pl-3 pr-8 py-1 rounded-sm inline-block mb-16 uppercase relative hover:opacity-75  transition"
         href="https://calendly.com/paulgarciaco/phone-call"
         target="_blank"
         rel="noopener noreferrer"
@@ -26,11 +26,11 @@ const Footer = () => (
       </a>
       <div className="md:flex md:items-baseline">
         <span className="flex mb-2  md:mb-0">
-          <a className="mr-3" href="mailto:hello@paulgarcia.co">
+          <a className="mr-3 hover:opacity-75  transition" href="mailto:hello@paulgarcia.co">
             <Envelope />
           </a>
           <a
-            className="mr-3"
+            className="mr-3 hover:opacity-75  transition"
             href="https://github.com/gp22"
             target="_blank"
             rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Footer = () => (
             <Github />
           </a>
           <a
-            className="md:mr-3"
+            className="hover:opacity-75  md:mr-3  transition"
             href="https://www.linkedin.com/in/paulgarcia22"
             target="_blank"
             rel="noopener noreferrer"
