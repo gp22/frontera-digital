@@ -9,7 +9,6 @@ import Brush from './svg/brush'
 import Devices from './svg/devices'
 import ComputerScreen from './svg/computer-screen'
 import AtomicBomb from './svg/atomic-bomb'
-import Squiggle from './svg/squiggle'
 
 const Features = () => (
   <section className="mb-24">
