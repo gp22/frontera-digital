@@ -9,7 +9,7 @@ const Qualify = () => (
       Wonder if we're a good fit to work together?
     </h4>
     <div className="lg:flex lg:wrap">
-      <div className="rounded-lg shadow-lg px-12 py-10 mb-4  lg:w-1/2 lg:mr-4 lg:mb-0">
+      <div className="rounded-lg shadow-md px-12 py-10 mb-4  lg:w-1/2 lg:mr-4 lg:mb-0">
         <h5 className="font-display mb-6 text-lg">
           I'm the right consultant for you if:
         </h5>
@@ -35,7 +35,7 @@ const Qualify = () => (
           </li>
         </ul>
       </div>
-      <div className="rounded-lg shadow-lg px-12 py-10  lg:w-1/2">
+      <div className="rounded-lg shadow-md px-12 py-10  lg:w-1/2">
         <h5 className="font-display mb-6 text-lg">
           I'm not the right consultant for you if:
         </h5>
