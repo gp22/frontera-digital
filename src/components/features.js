@@ -16,7 +16,7 @@ const Features = () => (
     <h4 className="italic">What you'll get</h4>
     <BrushStroke className="mb-4 w-32  md:mb-0  brush-stroke" />
     <div className="md:overflow-hidden">
-      <ul className="mb-12  md:flex md:flex-wrap md:mx-neg">
+      <ul className="md:flex md:flex-wrap md:mx-neg">
         <Feature
           icon={<ChatBubble />}
           title="Proactive communication"
@@ -49,7 +49,6 @@ const Features = () => (
         />
       </ul>
     </div>
-    <Squiggle className="mx-auto" />
   </section>
 )
 
