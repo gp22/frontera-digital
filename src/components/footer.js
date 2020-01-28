@@ -19,7 +19,7 @@ const Footer = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="font-bold tracking-wide">
+        <span className="font-bold tracking-wider">
           Schedule a call
         </span>
         <PhoneSolid className="absolute  phone-solid" />
