@@ -36,8 +36,8 @@ const Main = () => (
       few seconds) to grab their attention.
     </p>
     <p className={pClassNames}>
-      <span className="italic">Good design is important</span> – but what’s more
-      important is design that speaks to your audience.
+      <span className="italic">Good design is important</span> &mdash; but
+      what’s more important is design that speaks to your audience.
     </p>
     <p className={pClassNames}>
       And not only design that speaks to your audience, but that{' '}
@@ -56,11 +56,31 @@ const Main = () => (
       cite="Statista"
     />
 
-    <p>
+    <p className="mb-6">
       Most people use their phones to browse the web these days. And they expect
       your site to work well and provide a good experience no matter how they’re
       viewing it.
     </p>
+    <p className={pClassNames}>
+      So I'll make sure that all of the details of mobile-friendliness and
+      responsive design are handled.
+    </p>
+    <p className={pClassNames}>
+      You'll get a polished looking finished product that puts your best foot
+      forward.
+    </p>
+
+    <h3 className="font-bold font-display text-2xl mb-2">
+      Already have designs?
+    </h3>
+    <p className={pClassNames}>
+      If you already have designs and just need someone to bring them to life, I
+      can build it for you.
+    </p>
+    <p className={pClassNames}>
+      Need someone who can collaborate with your team?
+    </p>
+    <p className={pClassNames}>I've got you covered.</p>
   </section>
 )
 
