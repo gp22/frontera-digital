@@ -1,56 +1,34 @@
+/**
+ * Layout component that queries for data
+ * with Gatsby's useStaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
 
-import '../assets/scss/main.scss'
+import Nav from './nav'
+import Footer from './footer'
+import './layout.css'
 
-const Layout = ({ children, location }) => {
+if (typeof window !== 'undefined') {
+  // eslint-disable-next-line global-require
+  require('smooth-scroll')('a[href*="#"]', {
+    speed: 300,
+    easing: 'easeInOutQuint',
+  })
+}
 
-  let content;
-
-  if (location && location.pathname === '/') {
-    content = (
-      <div>
-        {children}
-      </div>
-    )
-  } else {
-    content = (
-      <div id="wrapper" className="page">
-        <div>
-          {children}
-        </div>
-      </div>
-    )
-  }
-
+const Layout = ({ children }) => {
   return (
-    <StaticQuery
-      query={graphql`
-        query SiteTitleQuery {
-          site {
-            siteMetadata {
-              title
-            }
-          }
-        }
-      `}
-      render={data => (
-        <>
-          <Helmet
-            title={data.site.siteMetadata.title}
-            meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
-            ]}
-          >
-            <html lang="en" />
-          </Helmet>
-          {content}
-        </>
-      )}
-    />
+    <>
+      <div className="content-wrapper mx-auto pt-6 px-6">
+        <Nav />
+        <main>{children}</main>
+      </div>
+      <Footer />
+    </>
   )
 }
 
