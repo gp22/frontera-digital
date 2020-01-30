@@ -57,17 +57,19 @@ const Main = () => (
     />
 
     <p className="mb-6">
-      Most people use their phones to browse the web these days. And they expect
-      your site to work well and provide a good experience no matter how they’re
-      viewing it.
+      Most people use their phones to browse the web these days. And{' '}
+      <span className="font-bold">they expect your site to work well</span> and
+      provide a good experience no matter how they’re viewing it.
     </p>
     <p className={pClassNames}>
       So I'll make sure that all of the details of mobile-friendliness and
       responsive design are handled.
     </p>
     <p className={pClassNames}>
-      You'll get a polished looking finished product that puts your best foot
-      forward.
+      <span className="italic">
+        You'll get a polished looking finished product that puts your best foot
+        forward.
+      </span>
     </p>
 
     <h3 className="font-bold font-display text-2xl mb-2">

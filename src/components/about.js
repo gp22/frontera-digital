@@ -9,22 +9,28 @@ const About = () => (
       About
     </h3>
     <p className="mb-4 max-w-xl relative">
-      I’ve developed websites and apps for major US corporations in telecom,
-      media, and finance. I’ve also helped build and run marketing campaigns for
-      a top digital marketing agency.
+      <span className="italic">In case you were wondering...</span> I taught
+      myself web and app development while traveling and working as a
+      &ldquo;digital nomad&rdquo; in 2016. I liked it so much, I pivoted away
+      from the business I was working on to pursue it full-time.
     </p>
     <p className="mb-4 max-w-xl">
-      I’m here to help you solve your web development problems so you can focus
-      on what you do best.
+      Since then, I’ve developed websites and apps for Fortune 500 companies in
+      telecom, media, and finance. I’ve also helped build and run marketing
+      campaigns for a major digital marketing agency.
     </p>
     <p className="mb-4 max-w-xl">
-      My goal is to help you achieve your goals through web experiences that put
-      your best foot forward and communicate that you’re serious about what you
-      do.
+      <span className="italic">On a more personal note...</span> I like to keep
+      life simple, and free of clutter. Both inner and outer! I love to cook,
+      and health and fitness are major parts of my life. I'm also a big
+      supporter of privacy and freedom. Both online and off.
+    </p>
+    <p className="mb-4 max-w-xl">
+      My goal is to help you accomplish your business goals by being a problem
+      solving partner so you can focus on what you do best.
     </p>
     <p className="max-w-xl">
-      Together, we’ll make something that clearly communicates who you are and
-      what you do.
+      I hope that together we can make something great!
     </p>
   </section>
 )
