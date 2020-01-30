@@ -1,4 +1,5 @@
 import React from 'react'
+import { OutboundLink } from 'gatsby-plugin-gtag'
 
 import BrushArrow from './svg/brush-arrow'
 import PhoneSolid from './svg/phone-solid'
@@ -13,38 +14,39 @@ const Footer = () => (
       <h4 className="text-xl text-brown-300 mb-6 relative">
         Ready to chat about your next project or just have questions?
       </h4>
-      <a
+      <OutboundLink
         className="bg-brown-300 text-brown-100 border-4 border-brown-300 inline-block mb-16 pl-3 pr-8 py-1 relative rounded-sm uppercase  hover:text-brown-300 hover:bg-brown-100  transition cta-button"
         href="https://calendly.com/paulgarciaco/phone-call"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="font-bold tracking-wider">
-          Schedule a call
-        </span>
+        <span className="font-bold tracking-wider">Schedule a call</span>
         <PhoneSolid className="absolute  phone-solid" />
-      </a>
+      </OutboundLink>
       <div className="md:flex md:items-baseline">
         <span className="flex mb-2  md:mb-0">
-          <a className="mr-3 hover:opacity-75  transition" href="mailto:hello@paulgarcia.co">
+          <OutboundLink
+            className="mr-3 hover:opacity-75  transition"
+            href="mailto:hello@paulgarcia.co"
+          >
             <Envelope />
-          </a>
-          <a
+          </OutboundLink>
+          <OutboundLink
             className="mr-3 hover:opacity-75  transition"
             href="https://github.com/gp22"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Github />
-          </a>
-          <a
+          </OutboundLink>
+          <OutboundLink
             className="hover:opacity-75  md:mr-3  transition"
             href="https://www.linkedin.com/in/paulgarcia22"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Linkedin />
-          </a>
+          </OutboundLink>
         </span>
         <p className="text-brown-200 text-xs">
           © {new Date().getFullYear()} design and development by Paul Garcia
