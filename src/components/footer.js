@@ -12,15 +12,15 @@ const Footer = () => (
     <div className="content-wrapper mx-auto px-6 pt-12 pb-6 relative">
       <BrushArrow className="absolute  brush-arrow" />
       <h4 className="text-xl text-brown-300 mb-6 relative">
-        Ready to chat about your next project or just have questions?
+        Ready to talk about your next project or just have questions?
       </h4>
       <OutboundLink
         className="bg-brown-300 text-brown-100 border-4 border-brown-300 inline-block mb-16 pl-3 pr-8 py-1 relative rounded-sm uppercase  hover:text-brown-300 hover:bg-brown-100  transition cta-button"
-        href="https://calendly.com/paulgarciaco/phone-call"
+        href="https://harmonizely.com/paulgarcia/phone-call"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="font-bold tracking-wider">Schedule a call</span>
+        <span className="font-bold tracking-wider">Book a chat</span>
         <PhoneSolid className="absolute  phone-solid" />
       </OutboundLink>
       <div className="md:flex md:items-baseline">
