@@ -2,31 +2,36 @@
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
  *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
+ * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from 'react'
-import PropTypes from 'prop-types'
+import * as React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
-import Nav from './nav'
-import Footer from './footer'
-import './layout.css'
+import "@fontsource/poppins"
+import "@fontsource/poppins/700.css"
+import "@fontsource/fira-sans/700.css"
 
-if (typeof window !== 'undefined') {
-  // eslint-disable-next-line global-require
-  require('smooth-scroll')('a[href*="#"]', {
-    speed: 300,
-    easing: 'easeInOutQuint',
-  })
-}
+import Header from "./header"
+import Footer from "./footer"
+import "../css/style.css"
 
 const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
   return (
     <>
-      <div className="content-wrapper mx-auto pt-6 px-6">
-        <Nav />
-        <main>{children}</main>
-      </div>
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <main>{children}</main>
       <Footer />
     </>
   )

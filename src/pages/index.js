@@ -1,35 +1,33 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import * as React from "react"
+import { Link } from "gatsby"
+// import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import Header from '../components/header'
-import Main from '../components/main'
-import Features from '../components/features'
-import Qualify from '../components/qualify'
-import About from '../components/about'
+import Layout from "../components/layout"
+import Seo from "../components/seo"
 
-const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  return (
-    <Layout>
-      <SEO title="Home" />
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Main />
-      <Features />
-      <Qualify />
-      <About />
-    </Layout>
-  )
-}
+const IndexPage = () => (
+  <Layout>
+    <Seo title="Home" />
+    <section className="wrapper py-12 md:py-28">
+      <div className="md:max-w-xl lg:max-w-2xl">
+        <h1 className="leading-tight text-3xl lg:text-display-1">
+          Does your website solve problems — or create them?
+        </h1>
+        <p className="mt-5">
+          👋{" "}
+          <span className="opacity-60">
+            {" "}
+            Hi, I’m Paul. I can help you build credibility, inspire trust, and
+            achieve your business goals with clean, modern websites designed to
+            solve your problems. Not create more.
+          </span>
+        </p>
+        <Link to="/contact" className="mt-5 btn">
+          Get In Touch!
+        </Link>
+      </div>
+    </section>
+  </Layout>
+)
 
 export default IndexPage

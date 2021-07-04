@@ -1,56 +1,31 @@
-import React from 'react'
-import { OutboundLink } from 'gatsby-plugin-gtag'
-
-import BrushArrow from './svg/brush-arrow'
-import PhoneSolid from './svg/phone-solid'
-import Envelope from './svg/envelope'
-import Github from './svg/github'
-import Linkedin from './svg/linkedin'
+import * as React from "react"
+import { Link } from "gatsby"
 
 const Footer = () => (
-  <footer id="footer" className="bg-brown-100">
-    <div className="content-wrapper mx-auto px-6 pt-12 pb-6 relative">
-      <BrushArrow className="absolute  brush-arrow" />
-      <h4 className="text-xl text-brown-300 mb-6 relative">
-        Ready to talk about your next project or just have questions?
-      </h4>
-      <OutboundLink
-        className="bg-brown-300 text-brown-100 border-4 border-brown-300 inline-block mb-16 pl-3 pr-8 py-1 relative rounded-sm uppercase  hover:text-brown-300 hover:bg-brown-100  transition cta-button"
-        href="https://harmonizely.com/paulgarcia/phone-call"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="font-bold tracking-wider">Book a chat</span>
-        <PhoneSolid className="absolute  phone-solid" />
-      </OutboundLink>
-      <div className="md:flex md:items-baseline">
-        <span className="flex mb-2  md:mb-0">
-          <OutboundLink
-            className="mr-3 hover:opacity-75  transition"
-            href="mailto:hello@paulgarcia.co"
-          >
-            <Envelope />
-          </OutboundLink>
-          <OutboundLink
-            className="mr-3 hover:opacity-75  transition"
-            href="https://github.com/gp22"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Github />
-          </OutboundLink>
-          <OutboundLink
-            className="hover:opacity-75  md:mr-3  transition"
-            href="https://www.linkedin.com/in/paulgarcia22"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Linkedin />
-          </OutboundLink>
-        </span>
-        <p className="text-brown-200 text-xs">
-          © {new Date().getFullYear()} design and development by Paul Garcia
-        </p>
+  <footer className="">
+    <div className="wrapper">
+      <div className="text-sm">
+        <p className="font-bold">Paul Garcia</p>
+        <p>519 W 22nd St. Ste 100</p>
+        <p>#93183</p>
+        <p>Sioux Falls, SD 57105</p>
+        <a href="mailto:hello@paulgarcia.co">hello@paulgarcia.co</a>
+      </div>
+    </div>
+    <div className="border-t border-gray-200">
+      <div className="wrapper flex justify-between items-center">
+        <p>© {new Date().getFullYear()} paulgarcia.co</p>
+        <div>
+          <Link to="/privacy-policy" className="inline-block py-6">
+            Privacy
+          </Link>
+          <Link to="/terms-of-service" className="inline-block py-6">
+            Terms
+          </Link>
+          <Link to="/accessibility-statement" className="inline-block py-6">
+            Accessibility
+          </Link>
+        </div>
       </div>
     </div>
   </footer>
