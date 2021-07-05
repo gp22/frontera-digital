@@ -1,32 +1,20 @@
 import * as React from "react"
 import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Hero from "../components/hero"
+import Bio from "../components/bio"
+import CaseStudy from "../components/casestudy"
+import Testimonial from "../components/testimonial"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <section className="wrapper py-12 md:py-28">
-      <div className="md:max-w-xl lg:max-w-2xl">
-        <h1 className="leading-tight text-3xl lg:text-display-1">
-          Does your website solve problems — or create them?
-        </h1>
-        <p className="mt-5">
-          👋{" "}
-          <span className="opacity-60">
-            {" "}
-            Hi, I’m Paul. I can help you build credibility, inspire trust, and
-            achieve your business goals with clean, modern websites designed to
-            solve your problems. Not create more.
-          </span>
-        </p>
-        <Link to="/contact" className="mt-5 btn">
-          Get In Touch!
-        </Link>
-      </div>
-    </section>
+    <Hero />
+    <Bio />
+    <CaseStudy />
+    <Testimonial />
   </Layout>
 )
 
