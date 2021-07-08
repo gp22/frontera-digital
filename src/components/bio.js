@@ -12,10 +12,10 @@ const Bio = () => (
         at an increased cost.
       </p>
       <p>
-        My name is Paul Garcia, I build clean, fast WordPress websites that
-        relieve all that hassle. You’ll get a website that looks modern, loads
-        fast, works perfectly on all devices, and is easy to use and maintain —
-        even if you decide to hire someone else to work on it later.
+        My name is Paul Garcia, I build clean, fast websites that relieve all
+        that hassle. You’ll get a website that looks modern, loads fast, works
+        perfectly on all devices, and is easy to use and maintain — even if you
+        decide to hire someone else to work on it later.
       </p>
     </div>
     <div className="flex justify-end mt-6 transform -rotate-6 md:mt-0 md:w-5/12">
