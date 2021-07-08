@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const CaseStudy = () => (
   <section className="wrapper mt-24 md:mt-36">
+    <span className="uppercase tracking-wider">Recent Project</span>
     <h2 className="text-2xl">
       The Community Environmental Legal Defense Fund (CELDF) wanted a site that
       was easier to maintain, with a more modern design, and simplified layout.
@@ -20,7 +21,7 @@ const CaseStudy = () => (
       </div>
       <div className="md:w-1/2">
         <h3>I partnered with the team at HKW to create...</h3>
-        <ul className="list-disc">
+        <ul className="list-disc text-lg opacity-60">
           <li>Created a complete rebrand and redesign</li>
           <li>
             Provided a more modern design, cleaner content layout, and simpler
