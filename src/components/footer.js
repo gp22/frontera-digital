@@ -5,16 +5,16 @@ const Footer = () => (
   <footer className="">
     <div className="wrapper">
       <div className="text-sm">
-        <p className="font-bold">Paul Garcia</p>
-        <p>519 W 22nd St. Ste 100</p>
-        <p>#93183</p>
-        <p>Sioux Falls, SD 57105</p>
+        <div className="font-bold">Paul Garcia</div>
+        <div>519 W 22nd St. Ste 100</div>
+        <div>#93183</div>
+        <div>Sioux Falls, SD 57105</div>
         <a href="mailto:hello@paulgarcia.co">hello@paulgarcia.co</a>
       </div>
     </div>
     <div className="border-t border-gray-200">
-      <div className="wrapper flex justify-between items-center">
-        <p>© {new Date().getFullYear()} paulgarcia.co</p>
+      <div className="wrapper flex flex-col justify-between items-center md:flex-row">
+        <div>© {new Date().getFullYear()} paulgarcia.co</div>
         <div>
           <Link to="/privacy-policy" className="inline-block py-6">
             Privacy
