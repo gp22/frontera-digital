@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import ContactButton from "./contactButton"
 
 const Hero = () => (
   <section className="wrapper py-12 md:py-28">
@@ -8,7 +8,7 @@ const Hero = () => (
         Modern, easy-to-use, mobile-friendly websites and apps that give you
         more of the results you want.
       </h1>
-      <p className="mt-5">
+      <p className="">
         👋{" "}
         <span className="opacity-60">
           {" "}
@@ -17,9 +17,7 @@ const Hero = () => (
           solve your problems. Not create more.
         </span>
       </p>
-      <Link to="/contact" className="mt-5 btn">
-        Get In Touch!
-      </Link>
+      <ContactButton />
     </div>
   </section>
 )
