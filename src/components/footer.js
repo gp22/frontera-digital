@@ -23,15 +23,21 @@ const Footer = () => (
           © {new Date().getFullYear()} paulgarcia.co
         </div>
         <div>
-          <Link to="/privacy-policy" className="inline-block py-6 pr-3">
+          <Link
+            to="/privacy-policy"
+            className="text-black no-underline inline-block py-6 pr-3"
+          >
             Privacy
           </Link>
-          <Link to="/terms-of-service" className="inline-block py-6 px-3">
+          <Link
+            to="/terms-of-service"
+            className="text-black no-underline inline-block py-6 px-3"
+          >
             Terms
           </Link>
           <Link
             to="/accessibility-statement"
-            className="inline-block py-6 pl-3"
+            className="text-black no-underline inline-block py-6 pl-3"
           >
             Accessibility
           </Link>

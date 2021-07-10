@@ -11,8 +11,8 @@ const PageTemplate = ({ data }) => {
   return (
     <Layout className="wrapper">
       <Seo title={title} />
-      <div className="entry-content">
-        {title !== "Home" && <h1 className="text-5xl mt-0 mb-8">{title}</h1>}
+      <div className="entry-content py-10">
+        <h1 className="mb-8">{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>

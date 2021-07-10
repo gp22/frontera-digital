@@ -31,7 +31,9 @@ const Layout = ({ children, className }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main className={className}>{children}</main>
+      <main className={className ? `site-main ${className}` : "site-main"}>
+        {children}
+      </main>
       <Footer />
     </>
   )

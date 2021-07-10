@@ -34,12 +34,20 @@ q:after {
   content: close-quote;
 }
 
+a {
+  @apply text-blue-700 underline transition-colors;
+}
+
+a:hover {
+  @apply text-black;
+}
+
 .wrapper {
   @apply max-w-screen-lg px-10 mx-auto;
 }
 
 .btn {
-  @apply border-2 font-bold hover:text-violet-500 inline-block px-7 py-3 text-white tracking-wider transition-all uppercase relative;
+  @apply border-2 font-bold hover:text-violet-500 inline-block px-7 py-3 text-white no-underline tracking-wider transition-all uppercase relative;
   border-image: linear-gradient(90deg, #320ad8, #6a4ddf);
   border-image-slice: 1;
 }
@@ -64,4 +72,12 @@ q:after {
 .btn:hover:after {
   @apply absolute bg-white h-full transition-all w-full;
   z-index: -1;
+}
+
+.entry-content h1 {
+  @apply text-4xl;
+}
+
+.entry-content h2 {
+  @apply text-2xl;
 }

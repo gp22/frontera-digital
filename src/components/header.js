@@ -12,22 +12,34 @@ const Header = ({ siteTitle }) => (
       <nav>
         <ul className="flex uppercase font-bold tracking-wider text-sm">
           <li>
-            <Link to="/about" className="inline-block p-5">
+            <Link
+              to="/about"
+              className="text-black no-underline inline-block p-5"
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="/services" className="inline-block p-5">
+            <Link
+              to="/services"
+              className="text-black no-underline inline-block p-5"
+            >
               Services
             </Link>
           </li>
           <li>
-            <Link to="/for-agencies" className="inline-block p-5">
+            <Link
+              to="/for-agencies"
+              className="text-black no-underline inline-block p-5"
+            >
               For Agencies
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="inline-block p-5">
+            <Link
+              to="/contact"
+              className="text-black no-underline inline-block p-5"
+            >
               Contact
             </Link>
           </li>
