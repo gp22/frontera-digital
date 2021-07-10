@@ -2,27 +2,37 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Footer = () => (
-  <footer className="">
-    <div className="wrapper">
-      <div className="text-sm">
-        <div className="font-bold">Paul Garcia</div>
-        <div>519 W 22nd St. Ste 100</div>
-        <div>#93183</div>
-        <div>Sioux Falls, SD 57105</div>
+  <footer className="text-sm pt-20">
+    <div className="wrapper flex justify-center">
+      <div className="">
+        <div className="opacity-75">
+          <span className="font-bold">Paul Garcia</span>
+          <br />
+          519 W 22nd St. Ste 100
+          <br />
+          #93183
+          <br />
+          Sioux Falls, SD 57105
+        </div>
         <a href="mailto:hello@paulgarcia.co">hello@paulgarcia.co</a>
       </div>
     </div>
-    <div className="border-t border-gray-200">
+    <div className="mt-10 border-t border-gray-200">
       <div className="wrapper flex flex-col justify-between items-center md:flex-row">
-        <div>© {new Date().getFullYear()} paulgarcia.co</div>
+        <div className="opacity-50 pt-6 md:pt-0">
+          © {new Date().getFullYear()} paulgarcia.co
+        </div>
         <div>
-          <Link to="/privacy-policy" className="inline-block py-6">
+          <Link to="/privacy-policy" className="inline-block py-6 pr-3">
             Privacy
           </Link>
-          <Link to="/terms-of-service" className="inline-block py-6">
+          <Link to="/terms-of-service" className="inline-block py-6 px-3">
             Terms
           </Link>
-          <Link to="/accessibility-statement" className="inline-block py-6">
+          <Link
+            to="/accessibility-statement"
+            className="inline-block py-6 pl-3"
+          >
             Accessibility
           </Link>
         </div>
