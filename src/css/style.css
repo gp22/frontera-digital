@@ -30,7 +30,7 @@ q:before {
   position: absolute;
 }
 
-a:after {
+q:after {
   content: close-quote;
 }
 
