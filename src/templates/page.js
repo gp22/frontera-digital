@@ -4,18 +4,22 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ReadyToChat from "../components/readytochat"
+import Testimonial from "../components/testimonial"
 
 const PageTemplate = ({ data }) => {
   const title = data.markdownRemark.frontmatter.title
   const html = data.markdownRemark.html
 
   return (
-    <Layout className="wrapper">
+    <Layout>
       <Seo title={title} />
-      <div className="entry-content py-10">
+      <div className="wrapper entry-content py-10">
         <h1 className="mb-8">{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
+      {(title === "About" ||
+        title === "Services" ||
+        title === "For Agencies") && <Testimonial />}
       {(title === "About" ||
         title === "Services" ||
         title === "For Agencies") && <ReadyToChat />}
