@@ -9,7 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import "@fontsource/poppins"
+import "@fontsource/poppins/300.css"
 import "@fontsource/poppins/700.css"
 import "@fontsource/fira-sans/700.css"
 
