@@ -1,19 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import Address from "../components/address"
+
 const Footer = () => (
   <footer className="text-sm pt-20">
     <div className="wrapper flex justify-center">
       <div className="">
-        <div className="opacity-75">
-          <span className="font-bold">Paul Garcia</span>
-          <br />
-          519 W 22nd St. Ste 100
-          <br />
-          #93183
-          <br />
-          Sioux Falls, SD 57105
-        </div>
+        <Address className="opacity-75" />
         <a href="mailto:hello@paulgarcia.co">hello@paulgarcia.co</a>
       </div>
     </div>
