@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ReadyToChat from "../components/readytochat"
 
 const PageTemplate = ({ data }) => {
   const title = data.markdownRemark.frontmatter.title
@@ -15,6 +16,9 @@ const PageTemplate = ({ data }) => {
         <h1 className="mb-8">{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
+      {(title === "About" ||
+        title === "Services" ||
+        title === "For Agencies") && <ReadyToChat />}
     </Layout>
   )
 }
