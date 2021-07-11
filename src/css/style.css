@@ -85,3 +85,34 @@ a:hover {
 .entry-content h3 {
   @apply text-xl;
 }
+
+.shape-divider {
+  @apply absolute w-full overflow-hidden;
+
+  left: 0;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.shape-divider svg {
+  @apply relative block;
+
+  width: calc(100% + 1.3px);
+  height: 88px;
+}
+
+.shape-divider-bottom {
+  bottom: 0;
+}
+
+.shape-divider-bottom .shape-fill {
+  fill: #ffffff;
+}
+
+.shape-divider-top {
+  top: -88px;
+}
+
+.shape-divider-top .shape-fill {
+  fill: #f4f5f9;
+}
