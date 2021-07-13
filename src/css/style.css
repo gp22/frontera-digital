@@ -105,14 +105,6 @@ a:hover {
   bottom: 0;
 }
 
-.shape-divider-bottom .shape-fill {
-  fill: #ffffff;
-}
-
 .shape-divider-top {
   top: -88px;
-}
-
-.shape-divider-top .shape-fill {
-  fill: #f4f5f9;
 }

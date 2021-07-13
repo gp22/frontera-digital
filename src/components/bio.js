@@ -5,7 +5,7 @@ import ShapeDivider from "./shapeDivider"
 
 const Bio = () => (
   <section className="bg-gray-100 mt-32 pt-16 pb-36 relative">
-    <ShapeDivider className="top" />
+    <ShapeDivider className="shape-divider-top" fill="text-gray-100" />
     <div className="wrapper flex flex-wrap md:items-center">
       <div className="md:w-7/12">
         <h2 className="text-2xl">Need a reliable technology partner?</h2>
@@ -33,7 +33,7 @@ const Bio = () => (
         />
       </div>
     </div>
-    <ShapeDivider className="bottom" />
+    <ShapeDivider className="shape-divider-bottom" fill="text-white" />
   </section>
 )
 

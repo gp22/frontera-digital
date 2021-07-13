@@ -5,35 +5,40 @@ import ShapeDivider from "./shapeDivider"
 import Address from "../components/address"
 
 const Footer = () => (
-  <footer className="text-sm pt-20 mt-36 bg-gray-100 relative">
-    <ShapeDivider className="top" />
+  <footer className="text-sm pt-20 mt-56 bg-black relative">
+    <ShapeDivider className="shape-divider-top" fill="text-black" />
     <div className="wrapper flex justify-center">
       <div className="">
-        <Address className="opacity-75" />
-        <a href="mailto:hello@paulgarcia.co">hello@paulgarcia.co</a>
+        <Address className="text-white" />
+        <a
+          href="mailto:hello@paulgarcia.co"
+          className="text-white hover:text-white hover:opacity-50"
+        >
+          hello@paulgarcia.co
+        </a>
       </div>
     </div>
-    <div className="mt-10 border-t border-gray-200">
-      <div className="wrapper flex flex-col justify-between items-center md:flex-row">
-        <div className="opacity-50 pt-6 md:pt-0">
+    <div className="mt-10">
+      <div className="wrapper flex flex-col border-t border-gray-900 justify-between items-center md:flex-row">
+        <div className="text-white opacity-50 pt-6 md:pt-0">
           © {new Date().getFullYear()} paulgarcia.co
         </div>
         <div>
           <Link
             to="/privacy-policy"
-            className="text-black no-underline inline-block py-6 pr-3"
+            className="text-white no-underline inline-block py-6 pr-3 hover:text-white hover:opacity-50"
           >
             Privacy
           </Link>
           <Link
             to="/terms-of-service"
-            className="text-black no-underline inline-block py-6 px-3"
+            className="text-white no-underline inline-block py-6 px-3 hover:text-white hover:opacity-50"
           >
             Terms
           </Link>
           <Link
             to="/accessibility-statement"
-            className="text-black no-underline inline-block py-6 pl-3"
+            className="text-white no-underline inline-block py-6 pl-3 hover:text-white hover:opacity-50"
           >
             Accessibility
           </Link>
