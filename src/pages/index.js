@@ -86,7 +86,22 @@ const IndexPage = () => (
       }
       title="CELDF"
     />
-    <Testimonial />
+    <Testimonial
+      cite="Chris Handsel, Principal Solutions Consulting"
+      image={
+        <StaticImage
+          src="../images/Chris_Handsel.jpg"
+          width={140}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="Chris Handsel"
+          className="rounded-full"
+        />
+      }
+      text="Paul was a great find and quickly became our top go-to developer. As
+      long as you don’t give him so much work that he doesn’t have time for
+      us, he gets my highest recommendation."
+    />
     <ReadyToChat />
   </Layout>
 )
