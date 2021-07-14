@@ -8,8 +8,8 @@ import ReadyToChat from "../components/readytochat"
 import Testimonial from "../components/testimonial"
 
 const PageTemplate = ({ data }) => {
-  const title = data.markdownRemark.frontmatter.title
-  const html = data.markdownRemark.html
+  const { title } = data.markdownRemark.frontmatter
+  const { html } = data.markdownRemark
 
   return (
     <Layout>
