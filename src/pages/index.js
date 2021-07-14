@@ -1,4 +1,5 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -13,7 +14,78 @@ const IndexPage = () => (
     <Seo title="Home" />
     <Hero />
     <Bio />
-    <CaseStudy />
+    <CaseStudy
+      image={
+        <StaticImage
+          src="../images/itr.png"
+          width={1200}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="ITRenew Workload Explorer"
+          className=""
+        />
+      }
+      list={
+        <>
+          <li>
+            Create an engaging survey and product suggestion tool with
+            animations and interactive elements.
+          </li>
+          <li>
+            Create custom WordPress blocks to display the dynamic content.
+          </li>
+          <li>
+            Build a WordPress native solution that used a popular,
+            well-supported form plugin.
+          </li>
+        </>
+      }
+      subtitle={
+        <>
+          I partnered with the team at{" "}
+          <a href="https://hkw.io" className="underline">
+            HKW
+          </a>{" "}
+          to...
+        </>
+      }
+      title="ITRenew"
+    />
+    <CaseStudy
+      image={
+        <StaticImage
+          src="../images/celdf.png"
+          width={1200}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="CELDF blog post"
+          className=""
+        />
+      }
+      list={
+        <>
+          <li>Create a complete rebrand and redesign.</li>
+          <li>
+            Provide a more modern design, cleaner content layout, and simpler
+            navigation.
+          </li>
+          <li>
+            Build a custom editing experience that made it easy for the staff to
+            build beautiful pages that are always on brand.
+          </li>
+        </>
+      }
+      subtitle={
+        <>
+          I partnered with the team at{" "}
+          <a href="https://hkw.io" className="underline">
+            HKW
+          </a>{" "}
+          to...
+        </>
+      }
+      title="CELDF"
+    />
     <Testimonial />
     <ReadyToChat />
   </Layout>
