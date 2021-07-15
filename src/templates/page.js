@@ -14,20 +14,21 @@ const PageTemplate = ({ data }) => {
   return (
     <Layout>
       <Seo title={title} />
-      <div className="wrapper entry-content py-10">
+      <div className="wrapper entry-content pt-10">
         <h1 className="mb-8">{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
       {title === "For Agencies" && (
         <Testimonial
           cite="Meredith Chase, 1558 Brand Agency"
+          className="mt-24"
           image={
             <StaticImage
               src="../images/Meredith_Chase.jpg"
               width={140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
-              alt="Chris Handsel"
+              alt="Meredith Chase"
               className="rounded-full"
             />
           }
