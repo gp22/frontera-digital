@@ -20,7 +20,6 @@ _You’ll get_
 
 - Great communication
 - Fast response times
-- Professional-quality work
 - Total transparency
 
 ### How it works
