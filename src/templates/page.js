@@ -18,6 +18,23 @@ const PageTemplate = ({ data }) => {
         <h1 className="mb-8">{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
+      {title === "About" && (
+        <Testimonial
+          cite="Karen Pasternack Straus, Garnet Creative"
+          className="mt-24"
+          image={
+            <StaticImage
+              src="../images/Karen_Straus.jpg"
+              width={140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Karen Straus"
+              className="rounded-full"
+            />
+          }
+          text="I'm very pleased with Paul's work. He has a thorough knowledge of CSS and WordPress, and was willing to learn new tools to accomplish what I needed. I especially appreciated his clear communication and transparency about his progress. He beautifully completed the project on time with little supervision. I look forward to working with Paul again soon."
+        />
+      )}
       {title === "For Agencies" && (
         <Testimonial
           cite="Meredith Chase, 1558 Brand Agency"
@@ -33,6 +50,23 @@ const PageTemplate = ({ data }) => {
             />
           }
           text="Paul has been a joy to work with. As an agency owner, I’m looking for team members who will hold themselves to my high standards and Paul definitely meets this requirement. He is thoughtful, always considering ways to do things better with a client-first focus. He is timely and does what he says he is going to do on time – if not sooner. And he’s very knowledgeable in web development. We look forward to our continued relationship with Paul."
+        />
+      )}
+      {title === "Services" && (
+        <Testimonial
+          cite="Vince Giuseffi, G3 Creative"
+          className="mt-24"
+          image={
+            <StaticImage
+              src="../images/Vince_Giuseffi.jpg"
+              width={140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Vince Giuseffi"
+              className="rounded-full"
+            />
+          }
+          text="Working with Paul is great! We had some complex issues dealing with ADA Compliance and mobile phone user experience on a website project. Paul was able to seamlessly integrate with our team and fix the issues. Paul is knowledgeable and has helped us with several WordPress development projects. Paul is a great communicator and easy to work with. We are glad to have him as an expert resource."
         />
       )}
       {(title === "About" ||
