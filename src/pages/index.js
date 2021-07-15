@@ -88,6 +88,7 @@ const IndexPage = () => (
     />
     <Testimonial
       cite="Chris Handsel, Principal Solutions Consulting"
+      className="mt-24 md:mt-36"
       image={
         <StaticImage
           src="../images/Chris_Handsel.jpg"
