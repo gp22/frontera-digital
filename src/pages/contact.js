@@ -25,37 +25,49 @@ const IndexPage = () => (
         <Address className="text-sm" />
       </div>
       <div className="md:w-1/2">
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
           <div className="my-4">
+            <label className="hidden invisible" aria-hidden="true">
+              Don’t fill this out if you're human:
+              <input name="bot-field" />
+            </label>
             <label>
-              Name
+              Name <span className="text-red-500">*</span>
               <input
                 type="text"
                 name="name"
                 id="name"
                 className="w-full border px-4 py-3"
+                required
               />
             </label>
           </div>
           <div className="my-4">
             <label>
-              Email
+              Email <span className="text-red-500">*</span>
               <input
                 type="email"
                 name="email"
                 id="email"
                 className="w-full border px-4 py-3"
+                required
               />
             </label>
           </div>
           <div className="my-4">
             <label>
-              Message
+              Message <span className="text-red-500">*</span>
               <textarea
                 name="message"
                 id="message"
                 rows="5"
                 className="w-full border px-4 py-3"
+                required
               />
             </label>
           </div>
