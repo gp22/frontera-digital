@@ -1,12 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import ShapeDivider from "./shapeDivider"
 import Address from "../components/address"
 
 const Footer = () => (
-  <footer className="text-sm pt-20 mt-56 bg-black relative">
-    <ShapeDivider className="shape-divider-top" fill="text-black" />
+  <footer className="text-sm pt-20 mt-36 bg-black relative">
     <div className="wrapper flex justify-center">
       <div className="">
         <Address className="text-white" />
