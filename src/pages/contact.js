@@ -4,80 +4,60 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import Address from "../components/address"
+import ContactForm from "../components/contactForm"
 
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <section className="wrapper py-10 flex flex-col md:flex-row">
-      <div className="md:w-1/2 md:pr-8">
-        <h1 className="text-4xl">Ready to chat?</h1>
+class IndexPage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { formSuccess: false, formError: false, errorMessage: "" }
+  }
 
-        <p>
-          Just fill out the form and hit the button. I typically respond within
-          24 hours M-F or the next business day if you reach out on a weekend.
-        </p>
+  sendForm = e => {
+    e.preventDefault()
+    const data = new FormData(e.target)
 
-        <p>
-          Not comfortable filling out the form? No problem! Just send me an
-          email directly at{" "}
-          <a href="mailto:hello@paulgarcia.co">hello@paulgarcia.co</a>.
-        </p>
-        <Address className="text-sm" />
-      </div>
-      <div className="md:w-1/2">
-        <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-        >
-          <div className="my-4">
-            <label className="hidden invisible" aria-hidden="true">
-              Don’t fill this out if you're human:
-              <input name="bot-field" />
-            </label>
-            <label>
-              Name <span className="text-red-500">*</span>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                className="w-full border px-4 py-3"
-                required
-              />
-            </label>
+    fetch("/", {
+      method: "POST",
+      body: data,
+    })
+      .then(() => {
+        this.setState({ formSuccess: true })
+      })
+      .catch(error => {
+        this.setState({ formError: true, errorMessage: error })
+      })
+  }
+
+  render() {
+    return (
+      <Layout>
+        <Seo title="Home" />
+        <section className="wrapper py-10 flex flex-col md:flex-row">
+          <div className="md:w-1/2 md:pr-8">
+            <h1 className="text-4xl">Ready to chat?</h1>
+
+            <p>
+              Just fill out the form and hit the button. I typically respond
+              within 24 hours M-F or the next business day if you reach out on a
+              weekend.
+            </p>
+
+            <p>
+              Not comfortable filling out the form? No problem! Just send me an
+              email directly at{" "}
+              <a href="mailto:hello@paulgarcia.co">hello@paulgarcia.co</a>.
+            </p>
+            <Address className="text-sm" />
           </div>
-          <div className="my-4">
-            <label>
-              Email <span className="text-red-500">*</span>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                className="w-full border px-4 py-3"
-                required
-              />
-            </label>
+          <div className="md:w-1/2">
+            {!this.state.formSuccess && !this.state.formError && (
+              <ContactForm sendForm={this.sendForm} />
+            )}
           </div>
-          <div className="my-4">
-            <label>
-              Message <span className="text-red-500">*</span>
-              <textarea
-                name="message"
-                id="message"
-                rows="5"
-                className="w-full border px-4 py-3"
-                required
-              />
-            </label>
-          </div>
-          <button type="submit" className="btn">
-            Send Message
-          </button>
-        </form>
-      </div>
-    </section>
-  </Layout>
-)
+        </section>
+      </Layout>
+    )
+  }
+}
 
 export default IndexPage
