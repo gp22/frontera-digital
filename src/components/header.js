@@ -1,53 +1,79 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import Logo from "../images/logo.svg"
 
-const Header = ({ siteTitle }) => (
-  <header className="wrapper py-5">
-    <div className="flex items-center justify-between">
-      <Link to="/">
-        <Logo />
-      </Link>
-      <nav>
-        <ul className="flex uppercase font-bold tracking-wider text-sm">
-          <li>
-            <Link
-              to="/about"
-              className="text-black no-underline inline-block p-5"
+import Logo from "../images/logo.svg"
+import MenuClose from "../images/menu_close.svg"
+import MenuOpen from "../images/menu_open.svg"
+import tailwindConfig from "../../tailwind.config"
+
+import NavMenu from "./navMenu"
+
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { isMobile: null, showMenu: false }
+  }
+
+  componentDidMount() {
+    this.onResizeScreen()
+    window.addEventListener("resize", this.onResizeScreen)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.onResizeScreen)
+  }
+
+  handleClick = () => {
+    this.setState(prevState => ({ showMenu: !prevState.showMenu }))
+  }
+
+  onResizeScreen = () => {
+    const breakpoint = tailwindConfig.theme.screens.md.match(/\d+/)
+
+    this.setState({
+      isMobile: window.innerWidth < breakpoint,
+    })
+  }
+
+  render() {
+    return (
+      <header className="wrapper relative py-5">
+        <div className="flex items-center justify-between">
+          <Link to="/">
+            <Logo />
+          </Link>
+          {!this.state.isMobile && (
+            <nav>
+              <NavMenu className="text-sm" />
+            </nav>
+          )}
+          {this.state.isMobile && (
+            <button
+              className="py-3 px-5 border dark:border-gray-700"
+              aria-expanded={`${this.state.showMenu ? true : false}`}
+              aria-label={`${
+                this.state.showMenu ? "Close" : "Open"
+              } Navigation Menu`}
+              onClick={this.handleClick}
             >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/services"
-              className="text-black no-underline inline-block p-5"
-            >
-              Services
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/for-agencies"
-              className="text-black no-underline inline-block p-5"
-            >
-              For Agencies
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/contact"
-              className="text-black no-underline inline-block p-5"
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-)
+              {this.state.showMenu ? (
+                <MenuClose className="fill-current dark:text-gray-300" />
+              ) : (
+                <MenuOpen className="fill-current dark:text-gray-300" />
+              )}
+            </button>
+          )}
+          {this.state.isMobile && this.state.showMenu && (
+            <nav className="absolute right-10 top-full z-10 bg-white dark:bg-gray-900 text-right border dark:border-gray-700">
+              <NavMenu className="flex-col" />
+            </nav>
+          )}
+        </div>
+      </header>
+    )
+  }
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
