@@ -10,6 +10,7 @@ const ContactForm = ({ sendForm }) => (
     netlify-honeypot="bot-field"
   >
     <div className="my-4">
+      <input type="hidden" name="form-name" value="contact" />
       <label className="hidden invisible" aria-hidden="true">
         Don’t fill this out if you're human:
         <input name="bot-field" />
