@@ -20,7 +20,7 @@ class IndexPage extends React.Component {
     e.preventDefault()
     const data = new FormData(e.target)
 
-    fetch("/", {
+    fetch("/.netlify/functions/submission-created", {
       method: "POST",
       body: data,
     })
