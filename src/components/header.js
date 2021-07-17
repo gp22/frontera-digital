@@ -50,7 +50,7 @@ class Header extends React.Component {
           )}
           {this.state.isMobile && (
             <button
-              className="py-3 px-5 border dark:border-gray-700"
+              className="py-3 px-5 border"
               aria-expanded={`${this.state.showMenu ? true : false}`}
               aria-label={`${
                 this.state.showMenu ? "Close" : "Open"
@@ -58,14 +58,14 @@ class Header extends React.Component {
               onClick={this.handleClick}
             >
               {this.state.showMenu ? (
-                <MenuClose className="fill-current dark:text-gray-300" />
+                <MenuClose className="fill-current" />
               ) : (
-                <MenuOpen className="fill-current dark:text-gray-300" />
+                <MenuOpen className="fill-current" />
               )}
             </button>
           )}
           {this.state.isMobile && this.state.showMenu && (
-            <nav className="absolute right-10 top-full z-10 bg-white dark:bg-gray-900 text-right border dark:border-gray-700">
+            <nav className="absolute right-10 top-full z-10 bg-white text-right border">
               <NavMenu className="flex-col" />
             </nav>
           )}
