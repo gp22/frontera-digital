@@ -9,7 +9,11 @@ import ContactForm from "../components/contactForm"
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { formSuccess: false, formError: false, errorMessage: "" }
+    this.state = { formSent: false, formError: false, message: "" }
+    this.errorMessage =
+      "Oh oh, something went wrong! Please reach out by email, and if you could let me know that this isn't working I'd really appreciate it. Thanks!"
+    this.successMessage =
+      "Hey, thanks for getting in touch! I'll reach back out soon. 👍"
   }
 
   sendForm = e => {
@@ -21,10 +25,14 @@ class IndexPage extends React.Component {
       body: data,
     })
       .then(() => {
-        this.setState({ formSuccess: true })
+        this.setState({ formSent: true, message: this.successMessage })
       })
       .catch(error => {
-        this.setState({ formError: true, errorMessage: error })
+        this.setState({
+          formSent: true,
+          message: this.errorMessage,
+          formError: true,
+        })
       })
   }
 
@@ -33,7 +41,7 @@ class IndexPage extends React.Component {
       <Layout>
         <Seo title="Home" />
         <section className="wrapper py-10 flex flex-col md:flex-row">
-          <div className="md:w-1/2 md:pr-8">
+          <div className="mb-8 md:mb-0 md:w-1/2 md:pr-8">
             <h1 className="text-4xl">Ready to chat?</h1>
 
             <p>
@@ -50,8 +58,15 @@ class IndexPage extends React.Component {
             <Address className="text-sm" />
           </div>
           <div className="md:w-1/2">
-            {!this.state.formSuccess && !this.state.formError && (
-              <ContactForm sendForm={this.sendForm} />
+            {!this.state.formSent && <ContactForm sendForm={this.sendForm} />}
+            {this.state.formSent && (
+              <p
+                className={`p-8 border ${
+                  this.state.formError ? "border-red-500" : "border-green-500"
+                }`}
+              >
+                {this.state.message}
+              </p>
             )}
           </div>
         </section>
