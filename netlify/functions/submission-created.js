@@ -1,23 +1,26 @@
 require("dotenv").config()
 const fetch = require("node-fetch")
-const { EMAIL_API_KEY, TO_EMAIL } = process.env
+const { EMAIL_API_KEY, TO_EMAIL, TO_NAME } = process.env
 
 exports.handler = async event => {
-  const email = JSON.parse(event.body).payload.email
-  console.log(`Recieved a submission: ${email}`)
-  console.log(`To email: ${TO_EMAIL}`)
-  return fetch("https://api.sendinblue.com/v3/smtp/email", {
+  const { name, email, message } = JSON.parse(event.body).payload.data
+  const url = "https://api.sendinblue.com/v3/smtp/email"
+  const options = {
     method: "POST",
     headers: {
-      accept: "application/json",
-      "api-key": `${EMAIL_API_KEY}`,
-      "content-type": "application/json",
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      "api-key": EMAIL_API_KEY,
     },
-    body: JSON.stringify({ email }),
-  })
-    .then(response => response.json())
-    .then(data => {
-      console.log(`Submitted to Sendinblue:\n ${data}`)
-    })
-    .catch(error => ({ statusCode: 422, body: String(error) }))
+    body: JSON.stringify({
+      sender: { name, email },
+      to: [{ email: TO_EMAIL, name: TO_NAME }],
+      subject: "New Contact Form Submission",
+      htmlContent: `<html><head></head><body><p>${message}</p></body></html>`,
+    }),
+  }
+
+  fetch(url, options)
+    .then(res => res.json())
+    .catch(err => console.error("error:" + err))
 }
