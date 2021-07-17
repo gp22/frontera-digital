@@ -20,7 +20,12 @@ exports.handler = async event => {
     }),
   }
 
-  fetch(url, options)
-    .then(res => res.json())
-    .catch(err => console.error("error:" + err))
+  let data
+
+  try {
+    data = await fetch(url, options).then(res => res.json())
+  } catch (e) {
+    return { statusCode: 500, body: JSON.stringify({ error: e.message }) }
+  }
+  return { statusCode: 200, body: JSON.stringify(data) }
 }
