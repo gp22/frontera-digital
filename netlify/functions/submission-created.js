@@ -1,10 +1,11 @@
 require("dotenv").config()
 const fetch = require("node-fetch")
-const { EMAIL_API_KEY } = process.env
+const { EMAIL_API_KEY, TO_EMAIL } = process.env
 
 exports.handler = async event => {
   const email = JSON.parse(event.body).payload.email
   console.log(`Recieved a submission: ${email}`)
+  console.log(`To email: ${TO_EMAIL}`)
   return fetch("https://api.sendinblue.com/v3/smtp/email", {
     method: "POST",
     headers: {
