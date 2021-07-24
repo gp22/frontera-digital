@@ -9,9 +9,9 @@ import Twitter from "../images/twitter.svg"
 
 const Footer = () => (
   <footer className="text-sm pt-20 mt-36 bg-black relative">
-    <div className="wrapper flex justify-center flex-wrap md:flex-nowrap">
-      <div className="md:w-1/3"></div>
-      <div className="flex justify-center md:w-1/3">
+    <div className="wrapper flex flex-col md:flex-row">
+      <div className="flex-1 md:w-1/3"></div>
+      <div className="flex justify-center flex-1 md:w-1/3">
         <div>
           <Address className="text-white" />
           <a
@@ -22,18 +22,18 @@ const Footer = () => (
           </a>
         </div>
       </div>
-      <div className="flex items-end justify-center md:w-1/3">
+      <div className="mt-6 flex items-end justify-center flex-1 md:w-1/3 md:mt-0">
         <a href="https://www.facebook.com/PaulGarciaco-112620274393448">
-          <Facebook className="mx-1" />
+          <Facebook className="mx-1 h-8 w-8" />
         </a>
         <a href="https://github.com/gp22">
-          <Github className="mx-1" />
+          <Github className="mx-1 h-8 w-8" />
         </a>
         <a href="https://www.linkedin.com/in/paulgarcia22">
-          <Linkedin className="mx-1" />
+          <Linkedin className="mx-1 h-8 w-8" />
         </a>
         <a href="https://twitter.com/paul_garcia_dev">
-          <Twitter className="mx-1" />
+          <Twitter className="mx-1 h-8 w-8" />
         </a>
       </div>
     </div>
