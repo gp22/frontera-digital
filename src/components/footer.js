@@ -2,17 +2,38 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Address from "../components/address"
+import Facebook from "../images/facebook.svg"
+import Github from "../images/github.svg"
+import Linkedin from "../images/linkedin.svg"
+import Twitter from "../images/twitter.svg"
 
 const Footer = () => (
   <footer className="text-sm pt-20 mt-36 bg-black relative">
-    <div className="wrapper flex justify-center">
-      <div className="">
-        <Address className="text-white" />
-        <a
-          href="mailto:hello@paulgarcia.co"
-          className="text-white hover:text-white hover:opacity-50"
-        >
-          hello@paulgarcia.co
+    <div className="wrapper flex justify-center flex-wrap md:flex-nowrap">
+      <div className="md:w-1/3"></div>
+      <div className="flex justify-center md:w-1/3">
+        <div>
+          <Address className="text-white" />
+          <a
+            href="mailto:hello@paulgarcia.co"
+            className="text-white hover:text-white hover:opacity-50"
+          >
+            hello@paulgarcia.co
+          </a>
+        </div>
+      </div>
+      <div className="flex items-end justify-center md:w-1/3">
+        <a href="https://www.facebook.com/PaulGarciaco-112620274393448">
+          <Facebook className="mx-1" />
+        </a>
+        <a href="https://github.com/gp22">
+          <Github className="mx-1" />
+        </a>
+        <a href="https://www.linkedin.com/in/paulgarcia22">
+          <Linkedin className="mx-1" />
+        </a>
+        <a href="https://twitter.com/paul_garcia_dev">
+          <Twitter className="mx-1" />
         </a>
       </div>
     </div>
