@@ -47,7 +47,7 @@ a:hover {
 }
 
 .btn {
-  @apply border-2 font-bold hover:text-violet-500 inline-block px-7 py-3 text-white no-underline tracking-wider transition-all uppercase relative;
+  @apply border-2 font-bold hover:text-violet-500 inline-block px-7 py-3 text-white no-underline tracking-wider transition-all uppercase relative z-10;
   border-image: linear-gradient(90deg, #320ad8, #6a4ddf);
   border-image-slice: 1;
 }

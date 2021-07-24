@@ -2,6 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import ShapeDivider from "./shapeDivider"
+import ContactButton from "./contactButton"
 
 const Bio = () => (
   <section className="bg-gray-100 mt-32 pt-16 pb-36 relative">
@@ -10,17 +11,24 @@ const Bio = () => (
       <div className="md:w-7/12">
         <h2 className="text-2xl">Need a reliable technology partner?</h2>
         <p>
-          A lot of business owners get burned on websites by people who
-          over-promise and under-deliver. Then they get stuck with a slow site
-          that doesn’t work how they expect, and needs to be fixed by someone
-          else at an increased cost.
+          I help tech, creative, and socially-responsible businesses get modern,
+          on-brand, high-converting websites that are easy to use, navigate, and
+          maintain, and are accessible for visitors with disabilities. That way
+          you get the results you want, plus more free time because you don't
+          have to spend it maintaining your website. All this even if you've had
+          past bad experiences with developers or agencies.
         </p>
         <p>
-          My name is Paul Garcia, I build clean, fast websites that relieve all
-          that hassle. You’ll get a website that looks modern, loads fast, works
-          perfectly on all devices, and is easy to use and maintain — even if
-          you decide to hire someone else to work on it later.
+          I do this through website design and development, website maintenance,
+          asset design and creation, and content publishing.
         </p>
+        <p>
+          If you want the ease and peace of mind that comes from knowing your
+          online presence is polished and professional, better results from your
+          website, and more free time because you don't have to maintain and
+          update it, I invite you to get in touch.
+        </p>
+        <ContactButton />
       </div>
       <div className="flex justify-end mt-6 transform -rotate-6 md:mt-0 md:w-5/12">
         <StaticImage
