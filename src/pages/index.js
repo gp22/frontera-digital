@@ -17,6 +17,44 @@ const IndexPage = () => (
     <CaseStudy
       image={
         <StaticImage
+          src="../images/mcmc.png"
+          width={1200}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="My Care My Choice"
+          className=""
+        />
+      }
+      list={
+        <>
+          <li>
+            Create an app for the National Council On Aging to allow people to
+            find state-sponsored health care.
+          </li>
+          <li>
+            Use a content service so the client can just focus on adding and
+            updating content.
+          </li>
+          <li>
+            Create a solution that's easy to use for people with disabilities or
+            who rely on assistive technologies.
+          </li>
+        </>
+      }
+      subtitle={
+        <>
+          I partnered with the team at{" "}
+          <a href="https://www.project6.com/" className="underline">
+            Project 6
+          </a>{" "}
+          to...
+        </>
+      }
+      title="NCOA"
+    />
+    <CaseStudy
+      image={
+        <StaticImage
           src="../images/vidatak.png"
           width={1200}
           quality={95}
