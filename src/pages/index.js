@@ -17,6 +17,41 @@ const IndexPage = () => (
     <CaseStudy
       image={
         <StaticImage
+          src="../images/vidatak.png"
+          width={1200}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="Vidatak product page"
+          className=""
+        />
+      }
+      list={
+        <>
+          <li>Create a complete rebrand and redesign.</li>
+          <li>
+            Create a brand new block-based WordPress site that highlights the
+            clients newest products.
+          </li>
+          <li>
+            Build an accessible, fast, modern WordPress solution that's easy for
+            the client to update.
+          </li>
+        </>
+      }
+      subtitle={
+        <>
+          I partnered with Robby Djendrono of{" "}
+          <a href="https://www.djendronodesign.com/" className="underline">
+            Djendrono Design
+          </a>{" "}
+          to...
+        </>
+      }
+      title="Vidatak"
+    />
+    <CaseStudy
+      image={
+        <StaticImage
           src="../images/itr.png"
           width={1200}
           quality={95}
