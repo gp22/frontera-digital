@@ -6,9 +6,9 @@ path: /services
 
 ## Web design and development
 
-A lot of business owners get burned on websites by people who over-promise and under-deliver. Then they get stuck with a slow site that doesn’t work how they expect, and needs to be fixed by someone else at an increased cost.
+A lot of business owners get burned on websites by people who **over-promise and under-deliver**. Then they get stuck with a slow site that doesn’t work how they expect, and needs to be fixed by someone else at an increased cost.
 
-My name is Paul Garcia, I build clean, fast WordPress websites that relieve all that hassle. You’ll get a website that looks modern, loads fast, works perfectly on all devices, and is easy to use and maintain — even if you decide to hire someone else to work on it later.
+My name is Paul Garcia, my projects are designed to relieve all that hassle. You’ll get a modern website that loads fast, works on all devices, is accessible for users with disabilities, and is easy to use and maintain — _even if you decide to hire someone else to work on it later_.
 
 ### What makes me different
 
@@ -16,7 +16,7 @@ From building high-performing marketing and sales systems for major telecom and 
 
 My process is **designed with you in mind**.
 
-_You’ll get_
+_You’ll get:_
 
 - Great communication
 - Fast response times
@@ -30,9 +30,9 @@ _You’ll get_
 - **QA/Testing** – Your site will be fully tested, including support for all major browsers and device sizes. You’ll get to review a live version of the new site that’s only accessible to you, so if there are any issues no one else will see them.
 - **Launch** – After making a complete backup of your existing site, it will be replaced with the new site and go live!
 
-## Website care and maintenance
+## Website (and client) care and support
 
-I offer monthly website care and maintenance plans to help keep your website safe, secure and working and looking it’s best. My plans can include (but are not limited to):
+I offer care and support plans that give you peace-of-mind by helping keep your website safe, secure and working and looking it’s best. My plans can include (but are not limited to):
 
 - WordPress version updates
 - Theme updates

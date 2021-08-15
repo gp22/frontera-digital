@@ -12,21 +12,20 @@ const Bio = () => (
         <h2 className="text-2xl">Need a reliable technology partner?</h2>
         <p>
           I help tech, creative, and socially-responsible businesses get modern,
-          on-brand, high-converting websites that are easy to use, navigate, and
-          maintain, and are accessible for visitors with disabilities. That way
-          you get the results you want, plus more free time because you don't
-          have to spend it maintaining your website. All this even if you've had
-          past bad experiences with developers or agencies.
+          on-brand, high-converting websites that are easy to use, easy to
+          navigate, easy to maintain, and are accessible for visitors with
+          disabilities. All this even if you've had past bad experiences with
+          developers or agencies.
         </p>
         <p>
           I do this through website design and development, website maintenance,
           asset design and creation, and content publishing.
         </p>
         <p>
-          If you want the ease and peace of mind that comes from knowing your
-          online presence is polished and professional, better results from your
-          website, and more free time because you don't have to maintain and
-          update it, I invite you to get in touch.
+          If you want the peace of mind that comes from knowing your online
+          presence is polished and professional, seeing better results from your
+          website, and having more free time because you don't have to maintain
+          and update it, get in touch!
         </p>
         <ContactButton />
       </div>

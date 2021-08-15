@@ -12,9 +12,11 @@ const Hero = () => (
         👋{" "}
         <span className="opacity-60">
           {" "}
-          Hi, I’m Paul. You probably don't want a website or app. You want the
-          results they provide. I can help you achieve your goals with clean,
-          modern websites designed to get you results.
+          Hi, I’m Paul. You probably don't really want a website. It's just a
+          means to an end. You want the results it provides. Whether that's more
+          email subscribers, more leads, more sales, or something else, I can
+          help you achieve your goals with clean, modern websites designed to
+          get you results.
         </span>
       </p>
       <ContactButton />
