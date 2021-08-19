@@ -91,6 +91,8 @@ module.exports = {
       "3xl": "2.074rem",
       "4xl": "2.488rem",
       "display-1": "2.986rem",
+      "display-2": "3.583rem",
+      "display-3": "4.3rem",
     },
     screens: {
       sm: "640px",

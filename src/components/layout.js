@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import "@fontsource/poppins/300.css"
 import "@fontsource/poppins/700.css"
-import "@fontsource/fira-sans/700.css"
+import "@fontsource/fira-sans/800.css"
 
 import Header from "./header"
 import Footer from "./footer"

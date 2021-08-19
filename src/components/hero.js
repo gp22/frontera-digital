@@ -3,8 +3,8 @@ import ContactButton from "./contactButton"
 
 const Hero = () => (
   <section className="wrapper py-12 md:py-28">
-    <div className="md:max-w-xl lg:max-w-2xl">
-      <h1 className="leading-tight text-3xl mb-6 lg:text-display-1">
+    <div className="">
+      <h1 className="leading-tight text-3xl mb-6 md:text-display-1 lg:text-display-2">
         Modern, easy-to-use, mobile-friendly websites and apps designed to give
         you the results you want.
       </h1>
