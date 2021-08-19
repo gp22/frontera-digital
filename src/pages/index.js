@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 import Hero from "../components/hero"
 import Bio from "../components/bio"
 import CaseStudy from "../components/casestudy"
+import Logos from "../components/logos"
 import ReadyToChat from "../components/readytochat"
 import Testimonial from "../components/testimonial"
 
@@ -13,6 +14,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <Hero />
+    <Logos />
     <Bio />
     <CaseStudy
       image={

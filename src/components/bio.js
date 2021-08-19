@@ -5,7 +5,7 @@ import ShapeDivider from "./shapeDivider"
 import ContactButton from "./contactButton"
 
 const Bio = () => (
-  <section className="bg-gray-100 mt-32 pt-16 pb-36 relative">
+  <section className="bg-gray-100 mt-44 pt-16 pb-36 relative md:mt-56">
     <ShapeDivider className="shape-divider-top" fill="text-gray-100" />
     <div className="wrapper flex flex-wrap md:items-center">
       <div className="md:w-7/12">
