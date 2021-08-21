@@ -29,15 +29,15 @@ const IndexPage = () => (
       }
       list={
         <>
-          <li>
+          <li className="mb-4">
             Create an app for the National Council On Aging to allow people to
             find state-sponsored health care.
           </li>
-          <li>
+          <li className="mb-4">
             Use a content service so the client can just focus on adding and
             updating content.
           </li>
-          <li>
+          <li className="mb-4">
             Create a solution that's easy to use for people with disabilities or
             who rely on assistive technologies.
           </li>
@@ -67,12 +67,12 @@ const IndexPage = () => (
       }
       list={
         <>
-          <li>Create a complete rebrand and redesign.</li>
-          <li>
+          <li className="mb-4">Create a complete rebrand and redesign.</li>
+          <li className="mb-4">
             Create a brand new block-based WordPress site that highlights the
             clients newest products.
           </li>
-          <li>
+          <li className="mb-4">
             Build an accessible, fast, modern WordPress solution that's easy for
             the client to update.
           </li>
@@ -102,14 +102,14 @@ const IndexPage = () => (
       }
       list={
         <>
-          <li>
+          <li className="mb-4">
             Create an engaging survey and product suggestion tool with
             animations and interactive elements.
           </li>
-          <li>
+          <li className="mb-4">
             Create custom WordPress blocks to display the dynamic content.
           </li>
-          <li>
+          <li className="mb-4">
             Build a WordPress native solution that used a popular,
             well-supported form plugin.
           </li>
@@ -139,12 +139,12 @@ const IndexPage = () => (
       }
       list={
         <>
-          <li>Create a complete rebrand and redesign.</li>
-          <li>
+          <li className="mb-4">Create a complete rebrand and redesign.</li>
+          <li className="mb-4">
             Provide a more modern design, cleaner content layout, and simpler
             navigation.
           </li>
-          <li>
+          <li className="mb-4">
             Build a custom editing experience that made it easy for the staff to
             build beautiful pages that are always on brand.
           </li>
@@ -162,7 +162,8 @@ const IndexPage = () => (
       title="CELDF"
     />
     <Testimonial
-      cite="Chris Handsel, Principal Solutions Consulting"
+      business="Principal Solutions Consulting"
+      cite="Chris Handsel"
       className="mt-24 md:mt-36"
       image={
         <StaticImage
