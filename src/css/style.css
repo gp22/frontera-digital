@@ -15,7 +15,6 @@ h6 {
   @apply font-display font-bold mb-2;
 }
 
-li,
 p {
   @apply mb-4;
 }
@@ -84,6 +83,30 @@ a:hover {
 
 .entry-content h3 {
   @apply text-xl;
+}
+
+.entry-content li {
+  @apply relative mb-2 pl-6;
+}
+
+.entry-content li:before {
+  @apply absolute left-0 opacity-50;
+  content: "✔️ ";
+}
+
+.entry-content p + h1,
+.entry-content p + h2,
+.entry-content p + h3,
+.entry-content p + h4,
+.entry-content p + h5,
+.entry-content p + h6,
+.entry-content ul + h1,
+.entry-content ul + h2,
+.entry-content ul + h3,
+.entry-content ul + h4,
+.entry-content ul + h5,
+.entry-content ul + h6 {
+  @apply mt-8;
 }
 
 .shape-divider {
