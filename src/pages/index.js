@@ -162,7 +162,8 @@ const IndexPage = () => (
       title="CELDF"
     />
     <Testimonial
-      cite="Chris Handsel, Principal Solutions Consulting"
+      business="Principal Solutions Consulting"
+      cite="Chris Handsel"
       className="mt-24 md:mt-36"
       image={
         <StaticImage
