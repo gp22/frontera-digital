@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <Seo title="Home" />
+        <Seo title="Contact" />
         <section className="wrapper py-10 flex flex-col md:flex-row">
           <div className="mb-8 md:mb-0 md:w-1/2 md:pr-8">
             <h1 className="text-4xl">Ready to chat?</h1>
