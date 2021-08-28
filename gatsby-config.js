@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Paul Garcia`,
-    description: `Web developer, agency partner.`,
-    author: `@gatsbyjs`,
+    title: `Website Developer, WordPress Websites, Web Designer`,
+    description: `Get a modern, easy-to-use, mobile-friendly website designed to give you results for your business.`,
+    author: `Paul Garcia`,
     siteUrl: `https://paulgarcia.co/`,
   },
   plugins: [
