@@ -41,6 +41,15 @@ a:hover {
   @apply text-black;
 }
 
+table {
+  @apply table-auto text-sm text-left w-full max-w-full;
+}
+
+td,
+th {
+  @apply border border-gray-200 p-2;
+}
+
 .wrapper {
   @apply max-w-screen-lg px-10 mx-auto;
 }
@@ -73,6 +82,10 @@ a:hover {
   z-index: -1;
 }
 
+.entry-content {
+  @apply overflow-scroll;
+}
+
 .entry-content h1 {
   @apply text-4xl;
 }
@@ -85,13 +98,21 @@ a:hover {
   @apply text-xl;
 }
 
-.entry-content li {
+.entry-content ul li {
   @apply relative mb-2 pl-6;
 }
 
-.entry-content li:before {
+.entry-content ul li:before {
   @apply absolute left-0 opacity-50;
   content: "✔️ ";
+}
+
+.entry-content ol {
+  @apply ml-5;
+}
+
+.entry-content ol li {
+  @apply list-decimal;
 }
 
 .entry-content p + h1,
@@ -105,7 +126,21 @@ a:hover {
 .entry-content ul + h3,
 .entry-content ul + h4,
 .entry-content ul + h5,
-.entry-content ul + h6 {
+.entry-content ul + h6,
+.entry-content ul + p,
+.entry-content ol + h1,
+.entry-content ol + h2,
+.entry-content ol + h3,
+.entry-content ol + h4,
+.entry-content ol + h5,
+.entry-content ol + h6,
+.entry-content ol + p,
+.entry-content table + h1,
+.entry-content table + h2,
+.entry-content table + h3,
+.entry-content table + h4,
+.entry-content table + h5,
+.entry-content table + h6 {
   @apply mt-8;
 }
 
