@@ -4,9 +4,9 @@ title: Privacy Policy
 path: /privacy-policy
 ---
 
-Last updated: Oct 13, 2021 6:00 PM
+Last updated: Dec 8, 2021
 
-We value your privacy very highly. Please read this Privacy Policy carefully before using the [paulgarcia.co](https://paulgarcia.co/) Website (the "Website") operated by Paul Garcia ("us," "we," "our") as this Privacy Policy contains important information regarding your privacy and how we may use the information we collect about you.
+We value your privacy very highly. Please read this Privacy Policy carefully before using the [thefrontera.agency](https://thefrontera.agency/) Website (the "Website") operated by Frontera Digital ("us," "we," "our") as this Privacy Policy contains important information regarding your privacy and how we may use the information we collect about you.
 
 Your access to and use of the Website is conditional upon your acceptance of and compliance with this Privacy Policy. This Privacy Policy applies to everyone, including, but not limited to: visitors, users, and others, who wish to access or use the Website.
 
@@ -72,7 +72,7 @@ We retain all of the information that we collect until we no longer need the inf
 
 ## Direct marketing
 
-We use the information that we collect about you for direct marketing purposes. Direct marketing is the act of selling products or services directly to consumers rather than through retailers. You may, at any time, request that we cease to use your information for direct marketing purposes by emailing us at hello@paulgarcia.co.
+We use the information that we collect about you for direct marketing purposes. Direct marketing is the act of selling products or services directly to consumers rather than through retailers. You may, at any time, request that we cease to use your information for direct marketing purposes by emailing us at hello@thefrontera.agency.
 
 ## Your rights
 
@@ -95,11 +95,10 @@ All visitors or users of this website have the following rights with regard to t
 
 You may exercise the rights specified above by submitting a consumer request to:
 
-Paul Garcia  
-hello@paulgarcia.co  
-519 W22nd St Ste 100  
-#93183  
-Sioux Falls, SD 57105  
+Frontera Digital  
+hello@thefrontera.agency  
+1309 Coffeen Ave. Ste 1200  
+Sheridan, WY 82801  
 USA
 
 We will need to verify your identity prior to effectuating your request. To verify your identity, you will need to provide us with the following information with your request:
@@ -116,7 +115,7 @@ We will respond to most consumer requests within 30 days of receipt. However, so
 The following person is accountable and responsible for our privacy practices and procedures:
 
 Paul Garcia
-hello@paulgarcia.co
+hello@thefrontera.agency
 
 You may lodge a complaint with us by contacting the person accountable and responsible for our privacy practices and procedures at the contact information above. You may also lodge a complaint with the Office of the Privacy Commissioner of Canada by filling out [this form](https://services.priv.gc.ca/q-s/allez-go/eng/fb408134-7bd4-48cb-87a2-4ac6210dee51) or calling 1-800-282-1376.
 
@@ -134,4 +133,4 @@ We reserve the right to amend this Privacy Policy at any time. We will notify yo
 
 ## Questions
 
-If you have any questions about this Privacy Policy, please contact us at hello@paulgarcia.co.
+If you have any questions about this Privacy Policy, please contact us at hello@thefrontera.agency.
