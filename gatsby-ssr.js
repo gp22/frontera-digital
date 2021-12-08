@@ -24,6 +24,6 @@ const headComponents = [
   </noscript>,
 ]
 
-export const onRenderBody = ({ setHeadComponents }) => {
-  setHeadComponents(headComponents)
-}
+// export const onRenderBody = ({ setHeadComponents }) => {
+//   setHeadComponents(headComponents)
+// }
