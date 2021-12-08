@@ -11,15 +11,15 @@ const Bio = () => (
       <div className="md:w-7/12">
         <h2 className="text-2xl">Need a reliable technology partner?</h2>
         <p>
-          I help tech, creative, and socially-responsible businesses get modern,
-          on-brand, high-converting websites that are easy to use, easy to
-          navigate, easy to maintain, and are accessible for visitors with
+          We help tech, creative, and socially-responsible businesses get
+          modern, on-brand, high-converting websites that are easy to use, easy
+          to navigate, easy to maintain, and are accessible for visitors with
           disabilities. All this even if you've had past bad experiences with
           developers or agencies.
         </p>
         <p>
-          I do this through website design and development, website maintenance,
-          asset design and creation, and content publishing.
+          We do this through website design and development, website
+          maintenance, asset design and creation, and content publishing.
         </p>
         <p>
           If you want the peace of mind that comes from knowing your online
@@ -30,14 +30,20 @@ const Bio = () => (
         <ContactButton />
       </div>
       <div className="flex justify-end mt-6 transform -rotate-6 md:mt-0 md:w-5/12">
-        <StaticImage
-          src="../images/Paul_Garcia.jpg"
-          width={220}
-          quality={100}
-          formats={["AUTO", "WEBP", "AVIF"]}
-          alt="Paul Garcia"
-          className="border-solid border-8 border-white shadow-lg"
-        />
+        <div className="flex flex-col">
+          <StaticImage
+            src="../images/Paul_Garcia.jpg"
+            width={220}
+            quality={100}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Paul Garcia"
+            className="border-solid border-8 border-white shadow-lg"
+          />
+          <div className="mt-2 text-center text-sm">
+            <span className="block">👋 Hi, I'm Paul.</span>
+            <span>Owner of Frontera Digital.</span>
+          </div>
+        </div>
       </div>
     </div>
     <ShapeDivider className="shape-divider-bottom" fill="text-white" />

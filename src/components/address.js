@@ -3,13 +3,11 @@ import PropTypes from "prop-types"
 
 const Address = ({ className }) => (
   <div className={className}>
-    <span className="font-bold">Paul Garcia</span>
+    <span className="font-bold">Frontera Digital</span>
     <br />
-    519 W 22nd St. Ste 100
+    1309 Coffeen Ave. Ste 1200
     <br />
-    #93183
-    <br />
-    Sioux Falls, SD 57105
+    Sheridan, WY 82801
   </div>
 )
 

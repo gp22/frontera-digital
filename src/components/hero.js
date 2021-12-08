@@ -8,16 +8,11 @@ const Hero = () => (
         Modern, easy-to-use, mobile-friendly websites and apps designed to give
         you the results you want.
       </h1>
-      <p className="mb-6 md:max-w-3xl">
-        👋{" "}
-        <span className="opacity-60">
-          {" "}
-          Hi, I’m Paul. You probably don't really want a website—it's just a
-          means to an end—you want the results it provides. Whether that's more
-          email subscribers, more leads, more sales, or something else, I can
-          help you achieve your goals with clean, modern websites designed to
-          get you results.
-        </span>
+      <p className="opacity-60 mb-6 md:max-w-3xl">
+        You probably don't really want a website—it's just a means to an end—you
+        want the results it provides. Whether that's more email subscribers,
+        more leads, more sales, or something else, we can help you achieve your
+        goals with clean, modern websites designed to get you results.
       </p>
       <ContactButton />
     </div>

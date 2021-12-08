@@ -30,7 +30,7 @@ const IndexPage = () => (
       list={
         <>
           <li className="mb-4">
-            Create an app for the National Council On Aging to allow people to
+            Created an app for the National Council On Aging to allow people to
             find state-sponsored health care.
           </li>
           <li className="mb-4">
@@ -45,11 +45,10 @@ const IndexPage = () => (
       }
       subtitle={
         <>
-          I partnered with the team at{" "}
+          Partnership with the team at{" "}
           <a href="https://www.project6.com/" className="underline">
             Project 6
-          </a>{" "}
-          to...
+          </a>
         </>
       }
       title="NCOA"
@@ -67,7 +66,7 @@ const IndexPage = () => (
       }
       list={
         <>
-          <li className="mb-4">Create a complete rebrand and redesign.</li>
+          <li className="mb-4">Created a complete rebrand and redesign.</li>
           <li className="mb-4">
             Create a brand new block-based WordPress site that highlights the
             clients newest products.
@@ -80,11 +79,10 @@ const IndexPage = () => (
       }
       subtitle={
         <>
-          I partnered with Robby Djendrono of{" "}
+          Partnership with Robby Djendrono of{" "}
           <a href="https://www.djendronodesign.com/" className="underline">
             Djendrono Design
-          </a>{" "}
-          to...
+          </a>
         </>
       }
       title="Vidatak"
@@ -103,7 +101,7 @@ const IndexPage = () => (
       list={
         <>
           <li className="mb-4">
-            Create an engaging survey and product suggestion tool with
+            Created an engaging survey and product suggestion tool with
             animations and interactive elements.
           </li>
           <li className="mb-4">
@@ -117,11 +115,10 @@ const IndexPage = () => (
       }
       subtitle={
         <>
-          I partnered with the team at{" "}
+          Partnership with the team at{" "}
           <a href="https://hkw.io" className="underline">
             HKW
-          </a>{" "}
-          to...
+          </a>
         </>
       }
       title="ITRenew"
@@ -139,7 +136,7 @@ const IndexPage = () => (
       }
       list={
         <>
-          <li className="mb-4">Create a complete rebrand and redesign.</li>
+          <li className="mb-4">Created a complete rebrand and redesign.</li>
           <li className="mb-4">
             Provide a more modern design, cleaner content layout, and simpler
             navigation.
@@ -152,11 +149,10 @@ const IndexPage = () => (
       }
       subtitle={
         <>
-          I partnered with the team at{" "}
+          Partnership with the team at{" "}
           <a href="https://hkw.io" className="underline">
             HKW
-          </a>{" "}
-          to...
+          </a>
         </>
       }
       title="CELDF"

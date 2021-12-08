@@ -45,15 +45,18 @@ class IndexPage extends React.Component {
             <h1 className="text-4xl">Ready to chat?</h1>
 
             <p>
-              Just fill out the form and hit the button. I typically respond
+              Just fill out the form and hit the button. We typically respond
               within 24 hours M-F or the next business day if you reach out on a
               weekend.
             </p>
 
             <p>
-              Not comfortable filling out the form? No problem! Just send me an
+              Not comfortable filling out the form? No problem! Just send us an
               email directly at{" "}
-              <a href="mailto:hello@paulgarcia.co">hello@paulgarcia.co</a>.
+              <a href="mailto:hello@thefrontera.agency">
+                hello@thefrontera.agency
+              </a>
+              .
             </p>
             <Address className="text-sm" />
           </div>

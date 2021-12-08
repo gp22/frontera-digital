@@ -8,13 +8,13 @@ path: /services
 
 A lot of business owners get burned on websites by people who **over-promise and under-deliver**. Then they get stuck with a slow site that doesn’t work how they expect, and needs to be fixed by someone else at an increased cost.
 
-My name is Paul Garcia, my projects are designed to relieve all that hassle. You’ll get a modern website that loads fast, works on all devices, is accessible for users with disabilities, and is easy to use and maintain — _even if you decide to hire someone else to work on it later_.
+Our projects are designed to relieve all that hassle. You’ll get a modern website that loads fast, works on all devices, is accessible for users with disabilities, and is easy to use and maintain — _even if you decide to hire someone else to work on it later_.
 
-### What makes me different
+### What makes us different
 
-From building high-performing marketing and sales systems for major telecom and media companies _(you might have even used software I built if you’ve ever signed up for a cable TV or Internet package online)_ to building web software in finance, not only do I have the skills to deliver the work, I’m looking to develop lasting partnerships.
+From building high-performing marketing and sales systems for major telecom and media companies _(you might have even used software we built if you’ve ever signed up for a cable TV or Internet package online)_ to building web software in finance, not only do we have the skills to deliver the work, we develop lasting partnerships.
 
-My process is **designed with you in mind**.
+Our process is **designed with you in mind**.
 
 _You’ll get:_
 
@@ -25,14 +25,14 @@ _You’ll get:_
 ### How it works
 
 - **Discovery** – We’ll determine if we’re a good fit to work together, discuss project requirements and how your site will be built.
-- **Requirements** – You provide me with content, and all of the specifications for your website.
-- **Development** – I start building your new site. You’ll get a link to my project management system where you can check-in on the status of your project milestones
+- **Requirements** – You provide us with content, and all of the specifications for your website.
+- **Development** – We start building your new site. You’ll get access to our project management system where you can check-in on the status of your project milestones.
 - **QA/Testing** – Your site will be fully tested, including support for all major browsers and device sizes. You’ll get to review a live version of the new site that’s only accessible to you, so if there are any issues no one else will see them.
-- **Launch** – After making a complete backup of your existing site, it will be replaced with the new site and go live!
+- **Launch** – After making a complete backup of your existing site, we'll replace it with the new site, and it will be live!
 
 ## Website (and client) care and support
 
-I offer care and support plans that give you peace-of-mind by helping keep your website safe, secure and working and looking it’s best. My plans can include (but are not limited to):
+We offer care and support plans that give you peace-of-mind by helping keep your website safe, secure and working and looking it’s best. Our plans can include (but are not limited to):
 
 - WordPress version updates
 - Theme updates
