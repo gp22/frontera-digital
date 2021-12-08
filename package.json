@@ -1,9 +1,9 @@
 {
-  "name": "paulgarciaco",
+  "name": "fronteradigital",
   "private": true,
-  "description": "Source for https://paulgarcia.co",
+  "description": "Source for https://thefrontera.agency",
   "version": "0.1.0",
-  "author": "Paul Garcia <hello@paulgarcia.co>",
+  "author": "Paul Garcia <hello@thefrontera.agency>",
   "dependencies": {
     "@fontsource/fira-sans": "^4.4.5",
     "@fontsource/poppins": "^4.4.5",
@@ -45,9 +45,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gp22/paulgarcia.co"
+    "url": "https://github.com/gp22/thefrontera.agency"
   },
   "bugs": {
-    "url": "https://github.com/gp22/paulgarcia.co/issues"
+    "url": "https://github.com/gp22/thefrontera.agency/issues"
   }
 }
