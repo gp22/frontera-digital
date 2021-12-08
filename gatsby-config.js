@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Website Developer, WordPress Websites, Web Designer`,
-    description: `Get a modern, easy-to-use, mobile-friendly website designed to give you results for your business.`,
+    title: `Frontera Digital`,
+    description: `Modern, easy-to-use, mobile-friendly business websites.`,
     author: `Paul Garcia`,
-    siteUrl: `https://paulgarcia.co/`,
+    siteUrl: `https://thefrontera.agency/`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -29,8 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `paulgarciaco`,
-        short_name: `paulgarciaco`,
+        name: `fronteradigital`,
+        short_name: `fronteradigital`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
