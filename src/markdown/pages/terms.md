@@ -72,11 +72,11 @@ USA
 
 ## Governing law, severability, dispute resolution and venue
 
-These Terms shall be governed and construed in accordance with the laws of the state of South Dakota, United States, without regard to its conflict of laws provisions. These terms shall not be governed by the United Nations convention on contracts for the sale of international goods, the Uniform Commercial Code, nor Incoterms.
+These Terms shall be governed and construed in accordance with the laws of the state of Wyoming, United States, without regard to its conflict of laws provisions. These terms shall not be governed by the United Nations convention on contracts for the sale of international goods, the Uniform Commercial Code, nor Incoterms.
 
 Our failure to enforce any right or provision of these Terms will not be considered a waiver of that right or provision. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between you and us regarding our Website, and supersede and replace any prior agreements we might have had with you regarding the Website.
 
-Any controversy or claim arising out of or relating to these Terms including but not limited to the interpretation or breach thereof shall be resolved in a court of competent jurisdiction in Minnehaha County, South Dakota.
+Any controversy or claim arising out of or relating to these Terms including but not limited to the interpretation or breach thereof shall be resolved in a court of competent jurisdiction in Sheridan County, Wyoming.
 
 You and Frontera Digital agree that each may bring claims against the other only in your or its individual capacity and not as a plaintiff or class member in any class or representative action.
 
