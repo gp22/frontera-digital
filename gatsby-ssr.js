@@ -9,7 +9,7 @@ const React = require("react")
 const headComponents = [
   <script>
     var clicky_site_ids = clicky_site_ids || [];
-    clicky_site_ids.push(101299848);
+    clicky_site_ids.push(101347445);
   </script>,
   <script async src="//static.getclicky.com/js"></script>,
   <noscript>
@@ -18,12 +18,12 @@ const headComponents = [
         alt="Clicky"
         width="1"
         height="1"
-        src="//in.getclicky.com/101299848ns.gif"
+        src="//in.getclicky.com/101347445ns.gif"
       />
     </p>
   </noscript>,
 ]
 
-// export const onRenderBody = ({ setHeadComponents }) => {
-//   setHeadComponents(headComponents)
-// }
+export const onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents(headComponents)
+}
