@@ -23,17 +23,11 @@ const Footer = () => (
         </div>
       </div>
       <div className="mt-6 flex items-end justify-center flex-1 md:w-1/3 md:mt-0">
-        <a href="https://www.facebook.com/PaulGarciaco-112620274393448">
+        <a href="https://www.facebook.com/Frontera-Digital-112620274393448/">
           <Facebook className="mx-1 h-8 w-8" />
         </a>
-        <a href="https://github.com/gp22">
-          <Github className="mx-1 h-8 w-8" />
-        </a>
-        <a href="https://www.linkedin.com/in/paulgarcia22">
+        <a href="https://linkedin.com/company/thefronteraagency">
           <Linkedin className="mx-1 h-8 w-8" />
-        </a>
-        <a href="https://twitter.com/paul_garcia_dev">
-          <Twitter className="mx-1 h-8 w-8" />
         </a>
       </div>
     </div>
