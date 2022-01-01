@@ -34,7 +34,7 @@ const Footer = () => (
     <div className="mt-10">
       <div className="wrapper flex flex-col border-t border-gray-900 justify-between items-center md:flex-row">
         <div className="text-white opacity-50 pt-6 md:pt-0">
-          © {new Date().getFullYear()} Frontera Digital
+          © {new Date().getFullYear()} Frontera Digital LLC
         </div>
         <div>
           <Link

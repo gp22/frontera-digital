@@ -6,7 +6,7 @@ path: /privacy-policy
 
 Last updated: Dec 8, 2021
 
-We value your privacy very highly. Please read this Privacy Policy carefully before using the [thefrontera.agency](https://thefrontera.agency/) Website (the "Website") operated by Frontera Digital ("us," "we," "our") as this Privacy Policy contains important information regarding your privacy and how we may use the information we collect about you.
+We value your privacy very highly. Please read this Privacy Policy carefully before using the [thefrontera.agency](https://thefrontera.agency/) Website (the "Website") operated by Frontera Digital LLC ("us," "we," "our") as this Privacy Policy contains important information regarding your privacy and how we may use the information we collect about you.
 
 Your access to and use of the Website is conditional upon your acceptance of and compliance with this Privacy Policy. This Privacy Policy applies to everyone, including, but not limited to: visitors, users, and others, who wish to access or use the Website.
 
@@ -95,7 +95,7 @@ All visitors or users of this website have the following rights with regard to t
 
 You may exercise the rights specified above by submitting a consumer request to:
 
-Frontera Digital  
+Frontera Digital LLC  
 hello@thefrontera.agency  
 1309 Coffeen Ave. Ste 1200  
 Sheridan, WY 82801  

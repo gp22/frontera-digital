@@ -40,8 +40,11 @@ const Bio = () => (
             className="border-solid border-8 border-white shadow-lg"
           />
           <div className="mt-2 text-center text-sm">
-            <span className="block">👋 Hi, I'm Paul.</span>
-            <span>Owner of Frontera Digital.</span>
+            <span className="block">
+              👋 Hi, I'm Paul. Owner and founder
+              <br />
+              of Frontera Digital.
+            </span>
           </div>
         </div>
       </div>

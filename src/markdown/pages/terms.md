@@ -6,7 +6,7 @@ path: /terms-of-service
 
 Last updated: Dec 8, 2021
 
-Please read this Terms of Service ("Terms," "Terms of Service") carefully before using the [thefrontera.agency](https://thefrontera.agency/) Website (the "Website") operated by Frontera Digital ("us," "we," "our") as this Terms of Service contains important information regarding limitations of our liability. Your access to and use of this Website is conditional upon your acceptance of and compliance with these Terms. These Terms apply to everyone, including but not limited to visitors, users and others, who wish to access and use the Website.
+Please read this Terms of Service ("Terms," "Terms of Service") carefully before using the [thefrontera.agency](https://thefrontera.agency/) Website (the "Website") operated by Frontera Digital LLC ("us," "we," "our") as this Terms of Service contains important information regarding limitations of our liability. Your access to and use of this Website is conditional upon your acceptance of and compliance with these Terms. These Terms apply to everyone, including but not limited to visitors, users and others, who wish to access and use the Website.
 
 By accessing or using the Website, you agree to be bound by these Terms. If you disagree with any part of the Terms, then you do not have our permission to access or use the Website.
 
@@ -14,7 +14,7 @@ By accessing or using the Website, you agree to be bound by these Terms. If you 
 
 You agree that you will use this Website in accordance with all applicable laws, rules, regulations and these Terms at all times. The following is a non-exhaustive list of prohibited uses of this Website. You agree that you will not perform any of the following prohibited uses:
 
-1. Impersonating or attempting to impersonate Frontera Digital or its employees, representatives, subsidiaries or divisions;
+1. Impersonating or attempting to impersonate Frontera Digital LLC or its employees, representatives, subsidiaries or divisions;
 2. Misrepresenting your identity or affiliation with any person or entity;
 3. Sending or attempting to send any advertising or promotional material, including but not limited to spam, junk mail, chain mail or any similar material;
 4. Engaging in any conduct that restricts or inhibits any person’s use or enjoyment of the Website, or which, as determined in our sole discretion, may harm us or the users of this Website or expose us or other users to liability;
@@ -37,9 +37,9 @@ We assume no liability for the availability, errors or inaccuracies of the infor
 
 ## Damages and limitation of liability
 
-In no event shall Frontera Digital be liable for any direct, indirect, punitive, incidental, special or consequential damages arising out of, relating to or in any way connected with your access to, display of or use of this Website or with the delay or inability to access, display or use this Website, including but not limited to your reliance upon opinions or information appearing on this Website; any computer viruses, information, software, linked websites operated by third parties, products or services obtained through this Website, whether based on a theory of negligence, contract, tort, strict liability, consumer protection statutes or otherwise, even if Frontera Digital has been advised of the possibility of such damages.
+In no event shall Frontera Digital LLC be liable for any direct, indirect, punitive, incidental, special or consequential damages arising out of, relating to or in any way connected with your access to, display of or use of this Website or with the delay or inability to access, display or use this Website, including but not limited to your reliance upon opinions or information appearing on this Website; any computer viruses, information, software, linked websites operated by third parties, products or services obtained through this Website, whether based on a theory of negligence, contract, tort, strict liability, consumer protection statutes or otherwise, even if Frontera Digital LLC has been advised of the possibility of such damages.
 
-This limitation of liability reflects the allocation of risk between you and us. The limitations specified in this section will survive and apply even if any limited remedy specified in these Terms of Use is found to have failed of its essential purpose. The limitations of liability provided in these Terms of Use inure to the benefit of Frontera Digital.
+This limitation of liability reflects the allocation of risk between you and us. The limitations specified in this section will survive and apply even if any limited remedy specified in these Terms of Use is found to have failed of its essential purpose. The limitations of liability provided in these Terms of Use inure to the benefit of Frontera Digital LLC.
 
 ## Links to third party websites
 
@@ -47,9 +47,9 @@ This Website may contain hyperlinks to websites operated by third parties and no
 
 ## Intellectual property and DMCA notice and procedure for intellectual property infringement claims
 
-All contents of this Website are ©2019 - 2022 Frontera Digital or third parties. All rights reserved. Unless specified otherwise, this Website and all content and other materials on this Website including but not limited to all logos, designs, text, graphics, pictures, information, data, software, sound files and arrangement thereof (collectively, “Content”) are the proprietary property of Frontera Digital and are either registered trademarks, trademarks or otherwise protected intellectual property of Frontera Digital or third parties in the United States and/or other countries.
+All contents of this Website are ©2019 - 2022 Frontera Digital LLC or third parties. All rights reserved. Unless specified otherwise, this Website and all content and other materials on this Website including but not limited to all logos, designs, text, graphics, pictures, information, data, software, sound files and arrangement thereof (collectively, “Content”) are the proprietary property of Frontera Digital LLC and are either registered trademarks, trademarks or otherwise protected intellectual property of Frontera Digital LLC or third parties in the United States and/or other countries.
 
-If you are aware of a potential infringement of our intellectual property, please contact Frontera Digital at hello@thefrontera.agency.
+If you are aware of a potential infringement of our intellectual property, please contact Frontera Digital LLC at hello@thefrontera.agency.
 
 We respect the intellectual property rights of others. It is our policy to respond to any claim that Content posted on the Website infringes on the copyright, trademark or other intellectual property rights of any person or entity.
 
@@ -64,7 +64,7 @@ Please note that we will not process your complaint if it is not properly filled
 
 You may submit your claim to us by contacting us at:
 
-Frontera Digital  
+Frontera Digital LLC  
 hello@thefrontera.agency  
 1309 Coffeen Ave. Ste 1200  
 Sheridan, WY 82801  
@@ -78,7 +78,7 @@ Our failure to enforce any right or provision of these Terms will not be conside
 
 Any controversy or claim arising out of or relating to these Terms including but not limited to the interpretation or breach thereof shall be resolved in a court of competent jurisdiction in Sheridan County, Wyoming.
 
-You and Frontera Digital agree that each may bring claims against the other only in your or its individual capacity and not as a plaintiff or class member in any class or representative action.
+You and Frontera Digital LLC agree that each may bring claims against the other only in your or its individual capacity and not as a plaintiff or class member in any class or representative action.
 
 
 We reserve the right to make changes to these Terms of Service at any time. We will not provide you with any notice when we make changes to this Terms of Service.
