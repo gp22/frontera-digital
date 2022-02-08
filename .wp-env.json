@@ -1,0 +1,5 @@
+{
+  "core": "WordPress/WordPress",
+  "plugins": ["https://github.com/fwazeter/WazFrame/archive/refs/heads/main.zip"],
+  "themes": ["."]
+}

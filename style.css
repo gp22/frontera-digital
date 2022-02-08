@@ -1,0 +1,71 @@
+/*
+Theme Name: fse-starter
+Author: me
+Author URI:
+Theme URI:
+Tags: full-site-editing
+Text Domain: fse-starter
+Requires at least: 5.8
+Requires PHP: 7.4
+Tested up to: 5.9
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+:root {
+  --measure: 60ch;
+}
+
+* {
+  max-inline-size: var(--measure);
+}
+
+html,
+body,
+div,
+footer,
+header,
+main,
+nav,
+section {
+  max-inline-size: none;
+}
+
+main > * {
+  box-sizing: content-box;
+  padding-inline: var(--wp--custom--spacing--small);
+}
+
+.box {
+  padding: var(--wp--custom--spacing--default);
+}
+
+.has-border {
+  border: 1px solid lightgray;
+}
+
+.page-id-71 .wp-site-blocks > * + * {
+  margin-top: 0;
+}
+
+.page-id-71 ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.page-id-71 ul:not(.wp-block-navigation__container) > li + li {
+  margin-block-start: 1rem;
+}
+
+.wp-block-navigation .wp-block-navigation-item__content {
+  padding: 1rem;
+}
