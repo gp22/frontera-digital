@@ -25,7 +25,7 @@ with others.
   --measure: 60ch;
 }
 
-* {
+/* * {
   max-inline-size: var(--measure);
 }
 
@@ -38,7 +38,7 @@ main,
 nav,
 section {
   max-inline-size: none;
-}
+} */
 
 main > * {
   box-sizing: content-box;
@@ -47,6 +47,10 @@ main > * {
 
 .box {
   padding: var(--wp--custom--spacing--default);
+}
+
+.box--small {
+  padding: var(--wp--custom--spacing--small);
 }
 
 .has-border {
@@ -68,4 +72,28 @@ main > * {
 
 .wp-block-navigation .wp-block-navigation-item__content {
   padding: 1rem;
+}
+
+.list-with-icons {
+  list-style-type: none;
+}
+
+.list-with-icons li {
+  position: relative;
+}
+
+.list-with-icons li:before {
+  background-image: url('assets/images/badge_check--primary.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  content: '';
+  height: 1.5rem;
+  left: -2.5rem;
+  position: absolute;
+  width: 1.5rem;
+}
+
+.wf-v_stack--small > * + * {
+  margin-block-start: var(--wp--custom--spacing--small);
+  margin-bottom: 0;
 }
