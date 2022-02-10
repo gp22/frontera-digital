@@ -97,3 +97,55 @@ main > * {
   margin-block-start: var(--wp--custom--spacing--small);
   margin-bottom: 0;
 }
+
+.wp-block-post-terms a {
+  color: var(--wp--preset--color--secondary);
+}
+
+.has-primary-dark-background-color {
+  color: var(--wp--preset--color--white);
+}
+
+.has-primary-dark-background-color a {
+  color: var(--wp--preset--color--white);
+}
+
+.position\:absolute {
+  position: absolute;
+}
+
+.position\:relative {
+  position: relative;
+}
+
+.wedge {
+  height: calc(100vw / 25);
+}
+
+.wedge-bottom {
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+}
+
+.wedge-top {
+  clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+}
+
+.bottom\:0 {
+  bottom: 0;
+}
+
+.left\:0 {
+  left: 0;
+}
+
+.top\:0 {
+  top: 0;
+}
+
+.background\:white {
+  background: var(--wp--preset--color--white);
+}
+
+.width\:100 {
+  width: 100%;
+}
