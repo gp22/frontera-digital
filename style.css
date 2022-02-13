@@ -29,9 +29,10 @@ with others.
   max-inline-size: var(--measure);
 }
 
-html,
 body,
 div,
+html,
+figure,
 footer,
 header,
 main,
@@ -109,6 +110,10 @@ main > * {
   height: calc(100vw / 25);
 }
 
+.wedge-contained {
+  height: calc(100% / 10);
+}
+
 .wedge-bottom {
   clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
 }
@@ -135,4 +140,28 @@ main > * {
 
 .width\:100 {
   width: 100%;
+}
+
+/* Gravity Forms */
+.gfield {
+  border: 0;
+  padding: 0;
+}
+
+.gform_button {
+  border: 0;
+  margin: 0;
+}
+
+/* From theme.json generated .wp-block-button__link styles */
+.button {
+  background-color: var(--wp--preset--color--primary);
+  border-radius: var(--wp--custom--border-radius);
+  color: var(--wp--preset--color--white);
+  font-size: var(--wp--preset--font-size--small);
+  font-weight: 700;
+  padding-top: var(--wp--custom--spacing--small);
+  padding-right: var(--wp--custom--spacing--small);
+  padding-bottom: var(--wp--custom--spacing--small);
+  padding-left: var(--wp--custom--spacing--small);
 }
