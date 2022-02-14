@@ -29,6 +29,10 @@
           "slug": "primary-dark",
           "color": "#04093d",
           "name": "Primary Dark"
+        },        {
+          "slug": "primary-light",
+          "color": "#f1f2fe",
+          "name": "Primary Dark"
         },
         {
           "slug": "secondary",
@@ -59,7 +63,7 @@
     },
     "layout": {
       "contentSize": "42.5rem",
-      "wideSize": "clamp(48.5rem, 62vw, 96rem)"
+      "wideSize": "62.5rem"
     },
     "typography": {
       "dropCap": false,
