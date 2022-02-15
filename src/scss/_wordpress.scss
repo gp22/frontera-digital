@@ -11,6 +11,10 @@
   color: var(--wp--preset--color--white);
 }
 
+.wp-block-button a:hover {
+  background-color: var(--wp--preset--color--primary-light);
+}
+
 .wp-block-navigation a:hover {
   text-decoration: underline;
 }

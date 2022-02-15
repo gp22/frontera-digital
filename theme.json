@@ -32,6 +32,11 @@
         },
         {
           "slug": "primary-light",
+          "color": "#3e4bd6",
+          "name": "Primary Dark"
+        },
+        {
+          "slug": "primary-lighter",
           "color": "#f1f2fe",
           "name": "Primary Dark"
         },
