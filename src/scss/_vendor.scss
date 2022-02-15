@@ -20,4 +20,8 @@
   padding-right: var(--wp--custom--spacing--small);
   padding-bottom: var(--wp--custom--spacing--small);
   padding-left: var(--wp--custom--spacing--small);
+
+  &:hover {
+    cursor: pointer;
+  }
 }

@@ -10,3 +10,7 @@
 .has-primary-dark-background-color a {
   color: var(--wp--preset--color--white);
 }
+
+.wp-block-navigation a:hover {
+  text-decoration: underline;
+}
