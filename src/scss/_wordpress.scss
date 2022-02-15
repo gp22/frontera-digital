@@ -11,8 +11,14 @@
   color: var(--wp--preset--color--white);
 }
 
+.wp-block-button a {
+  border: .2em solid transparent;
+}
+
 .wp-block-button a:hover {
-  background-color: var(--wp--preset--color--primary-light);
+  background-color: transparent;
+  border: .2em solid var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--primary);
 }
 
 .wp-block-navigation a:hover {
