@@ -29,19 +29,20 @@
           "slug": "primary-dark",
           "color": "#04093d",
           "name": "Primary Dark"
-        },        {
+        },
+        {
           "slug": "primary-light",
           "color": "#f1f2fe",
           "name": "Primary Dark"
         },
         {
           "slug": "secondary",
-          "color": "#108e7c",
+          "color": "#0e7f6f",
           "name": "Secondary"
         },
         {
           "slug": "secondary-light",
-          "color": "#d9f2ef",
+          "color": "#f4fefc",
           "name": "Secondary Light"
         },
         {
@@ -59,7 +60,14 @@
       ]
     },
     "spacing": {
-      "units": ["rem", "em", "px", "%", "vh", "vw"]
+      "units": [
+        "rem",
+        "em",
+        "px",
+        "%",
+        "vh",
+        "vw"
+      ]
     },
     "layout": {
       "contentSize": "42.5rem",
@@ -272,7 +280,10 @@
     {
       "name": "",
       "title": "",
-      "postTypes": ["post", "page"]
+      "postTypes": [
+        "post",
+        "page"
+      ]
     }
   ]
 }

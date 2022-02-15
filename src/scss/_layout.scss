@@ -1,0 +1,41 @@
+:root {
+  --measure: 60ch;
+}
+
+* {
+  max-inline-size: var(--measure);
+}
+
+body,
+div,
+html,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  max-inline-size: none;
+}
+
+main > * {
+  box-sizing: content-box;
+  padding-inline: var(--wp--custom--spacing--small);
+}
+
+.box {
+  padding: var(--wp--custom--spacing--default);
+}
+
+.box--small {
+  padding: var(--wp--custom--spacing--small);
+}
+
+.has-border {
+  border: 1px solid lightgray;
+}
+
+.wf-v_stack--small > * + * {
+  margin-block-start: var(--wp--custom--spacing--small);
+  margin-bottom: 0;
+}

@@ -2,7 +2,7 @@
 /**
  * Enqueue Styles for theme front end.
  *
- * @package industrial
+ * @package thefronteraagency
  * @since 0.0.1
  */
 if ( ! function_exists( 'wf_styles' ) ) :
@@ -17,7 +17,7 @@ if ( ! function_exists( 'wf_styles' ) ) :
         // Register theme stylesheet
         wp_register_style(
             'wf-style',
-            get_theme_file_uri( 'style.css' ),
+            get_theme_file_uri( 'assets/css/style.css' ),
             array(),
             VERSION
         );

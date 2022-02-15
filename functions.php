@@ -11,4 +11,4 @@ define( 'VERSION', wp_get_theme()->get( 'Version' ) );
 require_once 'inc/enqueues.php';
 
 // Register post types
-require_once 'inc/post-types.php';
+//require_once 'inc/post-types.php';

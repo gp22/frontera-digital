@@ -1,0 +1,12 @@
+.wp-block-navigation .wp-block-navigation-item__content {
+  padding: 1rem;
+}
+
+.wp-block-post-terms a {
+  color: var(--wp--preset--color--secondary);
+}
+
+.has-primary-dark-background-color,
+.has-primary-dark-background-color a {
+  color: var(--wp--preset--color--white);
+}
