@@ -69,7 +69,7 @@ if (!function_exists('wf_get_font_face_styles')) :
           font-weight: 400;
           font-style: normal;
           font-stretch: normal;
-          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Regular.ttf') . "') format('truetype');
+          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Regular.woff2') . "') format('woff2');
           font-display: swap;
         }
 
@@ -78,7 +78,7 @@ if (!function_exists('wf_get_font_face_styles')) :
           font-weight: 400;
           font-style: italic;
           font-stretch: normal;
-          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Italic.ttf') . "') format('truetype');
+          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Italic.woff2') . "') format('woff2');
           font-display: swap;
         }
 
@@ -87,7 +87,7 @@ if (!function_exists('wf_get_font_face_styles')) :
           font-weight: 700;
           font-style: normal;
           font-stretch: normal;
-          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Bold.ttf') . "') format('truetype');
+          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Bold.woff2') . "') format('woff2');
           font-display: swap;
         }
 
@@ -96,7 +96,7 @@ if (!function_exists('wf_get_font_face_styles')) :
           font-weight: 700;
           font-style: italic;
           font-stretch: normal;
-          src: url('" . get_theme_file_uri('assets/fonts/Poppins-BoldItalic.ttf') . "') format('truetype');
+          src: url('" . get_theme_file_uri('assets/fonts/Poppins-BoldItalic.woff2') . "') format('woff2');
           font-display: swap;
         }
       ";
