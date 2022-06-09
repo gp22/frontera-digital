@@ -1,116 +1,12 @@
 <?php
+
 /**
- * Enqueue Styles for theme front end.
+ * Add clicky analytics.
  *
- * @package thefronteraagency
- * @since 0.0.1
+ * @return void
  */
-if (!function_exists('wf_styles')) :
-
-    /**
-     * Enqueue Styles.
-     *
-     * @return void
-     */
-    function wf_styles()
-    {
-
-        // Register theme stylesheet
-        wp_register_style(
-            'wf-style',
-            get_theme_file_uri('assets/css/style.css'),
-            array(),
-            VERSION
-        );
-
-        // Add styles inline.
-        wp_add_inline_style('wf-style', wf_get_font_face_styles());
-
-        // Enqueue theme stylesheet
-        wp_enqueue_style('wf-style');
-    }
-
-    add_action('wp_enqueue_scripts', 'wf_styles');
-
-endif;
-
-if (!function_exists('wf_editor_styles')) :
-
-    /**
-     * Enqueue editor styles.
-     *
-     * @return void
-     */
-    function wf_editor_styles()
-    {
-
-        // Add styles inline.
-        wp_add_inline_style('wp-block-library', wf_get_font_face_styles());
-    }
-
-    add_action('admin_init', 'wf_editor_styles');
-
-endif;
-
-if (!function_exists('wf_get_font_face_styles')) :
-
-    /**
-     * Get font face styles.
-     * Called by wf_styles() & wf_editor_styles().
-     *
-     * @return string
-     */
-    function wf_get_font_face_styles(): string
-    {
-
-        return "
-        @font-face {
-          font-family: 'Poppins';
-          font-weight: 400;
-          font-style: normal;
-          font-stretch: normal;
-          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Regular.woff2') . "') format('woff2');
-          font-display: swap;
-        }
-
-        @font-face {
-          font-family: 'Poppins';
-          font-weight: 400;
-          font-style: italic;
-          font-stretch: normal;
-          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Italic.woff2') . "') format('woff2');
-          font-display: swap;
-        }
-
-        @font-face {
-          font-family: 'Poppins';
-          font-weight: 700;
-          font-style: normal;
-          font-stretch: normal;
-          src: url('" . get_theme_file_uri('assets/fonts/Poppins-Bold.woff2') . "') format('woff2');
-          font-display: swap;
-        }
-
-        @font-face {
-          font-family: 'Poppins';
-          font-weight: 700;
-          font-style: italic;
-          font-stretch: normal;
-          src: url('" . get_theme_file_uri('assets/fonts/Poppins-BoldItalic.woff2') . "') format('woff2');
-          font-display: swap;
-        }
-      ";
-    }
-endif;
-
-if (!function_exists('wf_analytics')) :
-
-    /**
-     * Add clicky analytics.
-     *
-     * @return void
-     */
-    function wf_analytics()
+if (!function_exists('fd_analytics')) :
+    function fd_analytics()
     {
         ?>
             <script>var clicky_site_ids = clicky_site_ids || [];clicky_site_ids.push(101347445);</script>
@@ -119,7 +15,7 @@ if (!function_exists('wf_analytics')) :
         <?php
     }
 
-    add_action('wp_head', 'wf_analytics');
+    add_action('wp_head', 'fd_analytics');
 
 endif;
 

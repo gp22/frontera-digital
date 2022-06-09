@@ -13,15 +13,10 @@
     "url": ""
   },
   "devDependencies": {
-    "@wordpress/stylelint-config": "^19.1.0",
-    "sass": "^1.26.10",
-    "stylelint": "^13.7.0"
+    "tailwindcss": "^3.0.24"
   },
   "scripts": {
-    "lint:css": "stylelint **/*.css --fix -i .gitignore",
-    "style": "npx sass src/scss/style.scss assets/css/style.css --watch",
-    "editor": "npx sass src/scss/style-editor.scss assets/css/style-editor.css",
-    "build": "npx sass src/scss/style.scss assets/css/style.css --style=compressed",
-    "editor-build": "npx sass src/scss/style-editor.scss assets/css/style-editor.css --style=compressed"
+    "watch": "npx tailwindcss -i ./src/css/style.css -o ./assets/css/style.css --watch",
+    "build": "npx tailwindcss -i ./src/css/style.css -o ./assets/css/style.css --minify"
   }
 }
