@@ -1,0 +1,14 @@
+baseURL = "https://thefrontera.agency/"
+languageCode = "en-us"
+title = "Frontera Digital"
+theme = "hugo-simple"
+copyright = "© 2024 Frontera Digital LLC"
+
+[params]
+hideMadeWithLine = true
+hideRSSLink = true
+
+[[menu.main]]
+name = "Say Hello"
+url = "mailto:hello@thefrontera.agency"
+weight = 10
