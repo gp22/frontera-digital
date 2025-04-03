@@ -9,7 +9,7 @@ Whether that’s more sales, more leads, more email subscribers—or something e
 ***
 
 ## Who We Are
-We’re a boutique design and development agency; owned and led by [Paul Garcia](https://paulgarcia.me/).
+We’re a boutique design and development agency; owned and led by [Paul Garcia](https://www.linkedin.com/in/paulgarcia22/).
 
 ***
 
